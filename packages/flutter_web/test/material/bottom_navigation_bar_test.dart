@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_ui/ui.dart';
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 import '../rendering/mock_canvas.dart';
 import '../widgets/semantics_tester.dart';
@@ -562,7 +562,7 @@ void main() {
     semantics.dispose();
   },
       skip:
-          true); // TODO(flutter_web): Sync BottomNavigationBar then sync this test file.
+          true); // TODO(flutter): Sync BottomNavigationBar then sync this test file.
 
   testWidgets('BottomNavigationBar.shifting semantics',
       (WidgetTester tester) async {
@@ -636,7 +636,7 @@ void main() {
     semantics.dispose();
   },
       skip:
-          true); // TODO(flutter_web): Sync BottomNavigationBar then sync this test file.
+          true); // TODO(flutter): Sync BottomNavigationBar then sync this test file.
 
   testWidgets('BottomNavigationBar handles items.length changes',
       (WidgetTester tester) async {
@@ -777,7 +777,7 @@ void main() {
     );
 
     await tester.tap(find.text('Green'));
-    // TODO(flutter_web): enable after golden file support.
+    // TODO(flutter): enable after golden file support.
 //    for (int pump = 0; pump < 8; pump++) {
 //      await tester.pump(const Duration(milliseconds: 30));
 //      await expectLater(

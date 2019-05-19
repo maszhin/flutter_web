@@ -5,9 +5,9 @@
 import 'dart:async';
 import 'dart:math' as math;
 
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/physics.dart';
-import 'package:flutter_web/rendering.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/physics.dart';
+import 'package:flutter/rendering.dart';
 
 import 'basic.dart';
 import 'debug.dart';

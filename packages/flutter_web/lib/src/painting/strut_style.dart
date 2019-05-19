@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 import 'package:meta/meta.dart';
 
 import 'basic_types.dart';
@@ -284,7 +284,7 @@ class StrutStyle extends Diagnosticable {
             package == null ? fontFamily : 'packages/$package/$fontFamily',
         _fontFamilyFallback = fontFamilyFallback,
         _package = package,
-        // TODO(flutter_web): const asserts are broken in dart2js.
+        // TODO(flutter): const asserts are broken in dart2js.
         // assert(fontSize == null || fontSize > 0),
         assert(leading == null || leading >= 0),
         assert(package == null ||

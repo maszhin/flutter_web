@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' as ui show Image;
+import 'package:flutter_ui/ui.dart' as ui show Image;
 
 import 'box.dart';
 import 'object.dart';
 
-export 'package:flutter_web/painting.dart' show BoxFit, ImageRepeat;
+export 'package:flutter/painting.dart' show BoxFit, ImageRepeat;
 
 /// An image in the render tree.
 ///

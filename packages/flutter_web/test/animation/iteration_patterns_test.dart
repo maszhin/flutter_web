@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/animation.dart';
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter/animation.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_ui/ui.dart' as ui;
 
 void main() {
   setUp(() {
@@ -107,7 +107,7 @@ void main() {
     };
     final VoidCallback badListener = () {
       log.add('badListener');
-      // TODO(flutter_web): revert to throw null; after DDC issue is resolved.
+      // TODO(flutter): revert to throw null; after DDC issue is resolved.
       throw NullThrownError();
     };
     final VoidCallback listener2 = () {
@@ -136,7 +136,7 @@ void main() {
     };
     final AnimationStatusListener badListener = (AnimationStatus status) {
       log.add('badListener');
-      // TODO(flutter_web): revert to throw null; after DDC issue is resolved.
+      // TODO(flutter): revert to throw null; after DDC issue is resolved.
       throw NullThrownError();
     };
     final AnimationStatusListener listener2 = (AnimationStatus status) {

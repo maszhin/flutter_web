@@ -4,9 +4,9 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/material.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/material.dart';
 
 bool refreshCalled = false;
 

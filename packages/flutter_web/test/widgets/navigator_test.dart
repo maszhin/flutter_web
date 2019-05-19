@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_ui/ui.dart';
 
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/material.dart';
 
 import 'semantics_tester.dart';
 
@@ -1147,7 +1147,7 @@ void main() {
     arguments.clear();
   });
 
-  // TODO(flutter_web): Upstream.
+  // TODO(flutter): Upstream.
   testWidgets('Initial route can have gaps', (WidgetTester tester) async {
     final GlobalKey<NavigatorState> keyNav = GlobalKey<NavigatorState>();
     const keyRoot = Key('Root');
@@ -1179,7 +1179,7 @@ void main() {
     expect(find.byKey(keyABC), findsNothing);
   });
 
-  // TODO(flutter_web): Upstream.
+  // TODO(flutter): Upstream.
   testWidgets('The full initial route has to be matched',
       (WidgetTester tester) async {
     final GlobalKey<NavigatorState> keyNav = GlobalKey<NavigatorState>();

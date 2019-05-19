@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' as ui;
-import 'package:flutter_web/cupertino.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/src/foundation/diagnostics.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter_ui/ui.dart' as ui;
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/src/foundation/diagnostics.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   const TextTheme defaultGeometryTheme = Typography.englishLike2014;

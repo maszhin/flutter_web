@@ -5,9 +5,9 @@
 library material_animated_icons;
 
 import 'dart:math' as math show pi;
-import 'package:flutter_web_ui/ui.dart' as ui show Paint, Path, Canvas;
-import 'package:flutter_web_ui/ui.dart' show lerpDouble;
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter_ui/ui.dart' as ui show Paint, Path, Canvas;
+import 'package:flutter_ui/ui.dart' show lerpDouble;
+import 'package:flutter/widgets.dart';
 
 // This package is split into multiple parts to enable a private API that is
 // testable.

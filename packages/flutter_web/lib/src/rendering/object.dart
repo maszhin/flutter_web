@@ -3,21 +3,21 @@
 // found in the LICENSE file.
 
 import 'dart:developer';
-import 'package:flutter_web_ui/ui.dart' as ui show PictureRecorder;
+import 'package:flutter_ui/ui.dart' as ui show PictureRecorder;
 
-import 'package:flutter_web/animation.dart';
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web/semantics.dart';
+import 'package:flutter/animation.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/semantics.dart';
 import 'package:vector_math/vector_math_64.dart';
 
 import 'binding.dart';
 import 'debug.dart';
 import 'layer.dart';
 
-export 'package:flutter_web/foundation.dart'
+export 'package:flutter/foundation.dart'
     show
         FlutterError,
         InformationCollector,
@@ -29,8 +29,8 @@ export 'package:flutter_web/foundation.dart'
         FlagProperty,
         IntProperty,
         DiagnosticPropertiesBuilder;
-export 'package:flutter_web/gestures.dart' show HitTestEntry, HitTestResult;
-export 'package:flutter_web/painting.dart';
+export 'package:flutter/gestures.dart' show HitTestEntry, HitTestResult;
+export 'package:flutter/painting.dart';
 
 /// Base class for data associated with a [RenderObject] by its parent.
 ///

@@ -4,9 +4,9 @@
 
 import 'package:meta/meta.dart';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter_ui/ui.dart';
 
 import 'framework.dart';
 

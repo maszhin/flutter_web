@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import 'dart:collection';
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 import 'events.dart';
 
 /// A callback that receives a [PointerEvent]

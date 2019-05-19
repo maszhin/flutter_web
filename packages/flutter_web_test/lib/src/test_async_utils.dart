@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 class _AsyncScope {
   _AsyncScope(this.creationStack, this.zone);

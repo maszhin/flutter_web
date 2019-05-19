@@ -5,18 +5,18 @@
 import 'dart:math' as math;
 import 'dart:typed_data';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/painting.dart' show MatrixUtils, TransformProperty;
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web_ui/ui.dart' as ui;
-import 'package:flutter_web_ui/ui.dart'
+import 'package:flutter/foundation.dart';
+import 'package:flutter/painting.dart' show MatrixUtils, TransformProperty;
+import 'package:flutter/services.dart';
+import 'package:flutter_ui/ui.dart' as ui;
+import 'package:flutter_ui/ui.dart'
     show Offset, Rect, SemanticsAction, SemanticsFlag, TextDirection;
-import 'package:flutter_web/src/util.dart';
+import 'package:flutter/src/util.dart';
 import 'package:vector_math/vector_math_64.dart';
 
 import 'semantics_event.dart';
 
-export 'package:flutter_web_ui/ui.dart' show SemanticsAction;
+export 'package:flutter_ui/ui.dart' show SemanticsAction;
 export 'semantics_event.dart';
 
 /// Signature for a function that is called for each [SemanticsNode].
@@ -595,7 +595,7 @@ class SemanticsProperties extends DiagnosticableTree {
     this.namesRoute,
     this.image,
     this.liveRegion,
-    // TODO(flutter_web): upstream.
+    // TODO(flutter): upstream.
     this.multiline,
     this.label,
     this.value,
@@ -766,7 +766,7 @@ class SemanticsProperties extends DiagnosticableTree {
   ///  * [UpdateLiveRegionEvent], to trigger a polite announcement of a live region.
   final bool liveRegion;
 
-  // TODO(flutter_web): upstream.
+  // TODO(flutter): upstream.
   /// Whether the [value] is coming from a field that supports multi-line.
   ///
   /// This option is only meaningful when used in combination with [textField]
@@ -1736,7 +1736,7 @@ class SemanticsNode extends AbstractNode with DiagnosticableTreeMixin {
   int get platformViewId => _platformViewId;
   int _platformViewId;
 
-  // TODO(flutter_web): upstream.
+  // TODO(flutter): upstream.
   bool get isMultiline => _isMultiline;
   bool _isMultiline;
 
@@ -1789,7 +1789,7 @@ class SemanticsNode extends AbstractNode with DiagnosticableTreeMixin {
     _scrollIndex = config.scrollIndex;
     indexInParent = config.indexInParent;
     _platformViewId = config._platformViewId;
-    // TODO(flutter_web): upstream.
+    // TODO(flutter): upstream.
     _isMultiline = config.isMultiline;
     _replaceChildren(childrenInInversePaintOrder ?? const <SemanticsNode>[]);
 
@@ -2164,7 +2164,7 @@ class SemanticsNode extends AbstractNode with DiagnosticableTreeMixin {
         FlagProperty('isInvisible', value: isInvisible, ifTrue: 'invisible'));
     properties.add(FlagProperty('isHidden',
         value: hasFlag(SemanticsFlag.isHidden), ifTrue: 'HIDDEN'));
-    // TODO(flutter_web): upstream.
+    // TODO(flutter): upstream.
     properties.add(FlagProperty('isMultiline',
         value: hasFlag(SemanticsFlag.isMultiline), ifTrue: 'MULTI-LINE'));
     properties.add(StringProperty('label', _label, defaultValue: ''));
@@ -3659,7 +3659,7 @@ class SemanticsConfiguration {
     _setFlag(SemanticsFlag.hasImplicitScrolling, value);
   }
 
-  // TODO(flutter_web): upstream.
+  // TODO(flutter): upstream.
   /// Whether the text field is multi-line.
   ///
   /// This option is usually set in combination with [textField] to indicate

@@ -4,7 +4,7 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 
 import '../../gallery/demo.dart';
 

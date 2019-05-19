@@ -17,7 +17,7 @@
 ///    painting boxes.
 library painting;
 
-export 'package:flutter_web_ui/ui.dart' show Shadow;
+export 'package:flutter_ui/ui.dart' show Shadow;
 
 export 'src/painting/alignment.dart';
 export 'src/painting/basic_types.dart';

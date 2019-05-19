@@ -5,20 +5,20 @@
 import 'dart:async';
 import 'dart:developer';
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui show isWeb;
+import 'package:flutter_ui/ui.dart' as ui show isWeb;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web/semantics.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/semantics.dart';
+import 'package:flutter/services.dart';
 
 import 'box.dart';
 import 'debug.dart';
 import 'object.dart';
 import 'view.dart';
 
-export 'package:flutter_web/gestures.dart' show HitTestResult;
+export 'package:flutter/gestures.dart' show HitTestResult;
 
 // Examples can assume:
 // dynamic context;

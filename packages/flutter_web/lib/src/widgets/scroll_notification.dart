@@ -4,8 +4,8 @@
 
 // TODO(yjbanov): port scroll_notification_test.dart when we have
 //                SingleChildScrollView.
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/rendering.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/rendering.dart';
 
 import 'framework.dart';
 import 'notification_listener.dart';

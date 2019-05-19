@@ -4,15 +4,15 @@
 
 import 'dart:async';
 import 'dart:developer' as developer;
-import 'package:flutter_web_ui/ui.dart'
+import 'package:flutter_ui/ui.dart'
     show AppLifecycleState, Locale, AccessibilityFeatures;
-import 'package:flutter_web_ui/ui.dart' as ui show isWeb, webOnlyIsInitialized;
+import 'package:flutter_ui/ui.dart' as ui show isWeb, webOnlyIsInitialized;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 
 import 'app.dart';
 import 'debug.dart';
@@ -20,7 +20,7 @@ import 'focus_manager.dart';
 import 'framework.dart';
 import 'widget_inspector.dart';
 
-export 'package:flutter_web_ui/ui.dart' show AppLifecycleState, Locale;
+export 'package:flutter_ui/ui.dart' show AppLifecycleState, Locale;
 
 /// Interface for classes that register with the Widgets layer binding.
 ///

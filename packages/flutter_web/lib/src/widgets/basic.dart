@@ -2,29 +2,29 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// TODO(flutter_web): due to https://github.com/dart-lang/sdk/issues/31140 some
+// TODO(flutter): due to https://github.com/dart-lang/sdk/issues/31140 some
 //                  asserts in const constructors are disabled.
-import 'package:flutter_web_ui/ui.dart' as ui show Image, ImageFilter;
+import 'package:flutter_ui/ui.dart' as ui show Image, ImageFilter;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
 
 import 'debug.dart';
 import 'framework.dart';
 import 'localizations.dart';
 
-export 'package:flutter_web/animation.dart';
-export 'package:flutter_web/foundation.dart'
+export 'package:flutter/animation.dart';
+export 'package:flutter/foundation.dart'
     show
         ChangeNotifier,
         FlutterErrorDetails,
         Listenable,
         TargetPlatform,
         ValueNotifier;
-export 'package:flutter_web/painting.dart';
-export 'package:flutter_web/rendering.dart'
+export 'package:flutter/painting.dart';
+export 'package:flutter/rendering.dart'
     show
         AlignmentTween,
         AlignmentGeometryTween,
@@ -4971,7 +4971,7 @@ class RichText extends LeafRenderObjectWidget {
       ..overflow = overflow
       ..textScaleFactor = textScaleFactor
       ..maxLines = maxLines
-      // TODO(flutter_web): ..strutStyle = strutStyle
+      // TODO(flutter): ..strutStyle = strutStyle
       ..locale = locale ?? Localizations.localeOf(context, nullOk: true);
   }
 
@@ -6005,7 +6005,7 @@ class Semantics extends SingleChildRenderObjectWidget {
       liveRegion: properties.liveRegion,
       inMutuallyExclusiveGroup: properties.inMutuallyExclusiveGroup,
       obscured: properties.obscured,
-      // TODO(flutter_web): upstream.
+      // TODO(flutter): upstream.
       multiline: properties.multiline,
       scopesRoute: properties.scopesRoute,
       namesRoute: properties.namesRoute,
@@ -6073,7 +6073,7 @@ class Semantics extends SingleChildRenderObjectWidget {
       ..focused = properties.focused
       ..inMutuallyExclusiveGroup = properties.inMutuallyExclusiveGroup
       ..obscured = properties.obscured
-      // TODO(flutter_web): upstream.
+      // TODO(flutter): upstream.
       ..multiline = properties.multiline
       ..hidden = properties.hidden
       ..image = properties.image

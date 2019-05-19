@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' show isWeb;
+import 'package:flutter_ui/ui.dart' show isWeb;
 import 'package:meta/meta.dart';
 
 import 'print.dart';
@@ -1809,7 +1809,7 @@ class DiagnosticsProperty<T> extends DiagnosticsNode {
     // DiagnosticableTree value is likely too large to be useful.
 
     if (isWeb && v is Function) {
-      // TODO(flutter_web): upstream.
+      // TODO(flutter): upstream.
       // Normalize web/DDC specific closure toString syntax.
       // DDC Example: Closure: () => void from: function onClick().
       String desc = v.toString();
@@ -1985,7 +1985,7 @@ class DiagnosticableNode<T extends Diagnosticable> extends DiagnosticsNode {
   DiagnosticPropertiesBuilder get _builder {
     if (_cachedBuilder == null) {
       _cachedBuilder = new DiagnosticPropertiesBuilder();
-      // TODO(flutter_web): Upstream to flutter repo to enable
+      // TODO(flutter): Upstream to flutter repo to enable
       // treeshaking.
       if (assertionsEnabled) {
         value?.debugFillProperties(_cachedBuilder);
@@ -2412,7 +2412,7 @@ abstract class DiagnosticableTree extends Diagnosticable {
     final DiagnosticPropertiesBuilder builder =
         new DiagnosticPropertiesBuilder();
 
-    /// TODO(flutter_web): upstream to Flutter.
+    /// TODO(flutter): upstream to Flutter.
     if (assertionsEnabled) {
       debugFillProperties(builder);
     }
@@ -2509,7 +2509,7 @@ mixin DiagnosticableTreeMixin implements DiagnosticableTree {
     final DiagnosticPropertiesBuilder builder =
         new DiagnosticPropertiesBuilder();
 
-    /// TODO(flutter_web): upstream to Flutter.
+    /// TODO(flutter): upstream to Flutter.
     if (assertionsEnabled) {
       debugFillProperties(builder);
     }
@@ -2555,7 +2555,7 @@ mixin DiagnosticableTreeMixin implements DiagnosticableTree {
 /// Consistently converts double to string for VM and Web.
 ///
 /// For double values that contain no fractional parts it will add .0 to output.
-/// TODO(flutter_web): upstream to Flutter.
+/// TODO(flutter): upstream to Flutter.
 String debugPrintDouble(double value) {
   if (value.floor() == value) {
     return '${value}.0';

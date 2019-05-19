@@ -5,7 +5,7 @@
 // Each TabBarView contains a _Page and for each _Page there is a list
 // of _CardData objects. Each _CardData object is displayed by a _CardItem.
 
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 
 import '../../gallery/demo.dart';
 

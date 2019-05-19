@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/widgets.dart';
 
 class TestRoute<T> extends PageRoute<T> {
   TestRoute({this.child, RouteSettings settings}) : super(settings: settings);
@@ -56,14 +56,14 @@ void main() {
     await pumpApp(tester);
     expect(find.byType(WidgetsApp), findsOneWidget);
     expect(find.byType(Navigator), findsOneWidget);
-    // TODO(flutter_web): enable when PerformanceOverlay is supported.
+    // TODO(flutter): enable when PerformanceOverlay is supported.
     // expect(find.byType(PerformanceOverlay), findsOneWidget);
     expect(find.byType(CheckedModeBanner), findsOneWidget);
   });
 
   testWidgets('showPerformanceOverlayOverride false',
       (WidgetTester tester) async {
-    // TODO(flutter_web): enable when PerformanceOverlay is supported.
+    // TODO(flutter): enable when PerformanceOverlay is supported.
     // expect(WidgetsApp.showPerformanceOverlayOverride, true);
     WidgetsApp.showPerformanceOverlayOverride = false;
     await pumpApp(tester);

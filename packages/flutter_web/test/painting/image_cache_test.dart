@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/services.dart';
 import 'package:test/test.dart';
 
 import 'mocks_for_image_cache.dart';

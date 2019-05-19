@@ -6,10 +6,10 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 class TestAssetBundle extends CachingAssetBundle {
   TestAssetBundle(this._assetBundleMap);

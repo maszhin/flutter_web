@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/scheduler.dart';
+import 'package:flutter/scheduler.dart';
 
 @Deprecated('scheduler_tester is not compatible with dart:async')
 class Future {} // so that people can't import us and dart:async

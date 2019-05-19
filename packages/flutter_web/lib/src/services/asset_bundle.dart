@@ -7,8 +7,8 @@ import 'dart:html' show HttpRequest;
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 
 /// A collection of resources used by the application.
 ///

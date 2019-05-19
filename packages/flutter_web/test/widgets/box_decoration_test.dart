@@ -4,13 +4,13 @@
 
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui show Image;
+import 'package:flutter_ui/ui.dart' as ui show Image;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 import '../painting/image_data.dart';
 import '../rendering/mock_canvas.dart';

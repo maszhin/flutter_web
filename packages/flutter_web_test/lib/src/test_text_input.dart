@@ -2,13 +2,13 @@ import 'dart:async';
 
 import 'package:test/test.dart';
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'test_async_utils.dart';
 import 'widget_tester.dart';
 
-export 'package:flutter_web/services.dart'
+export 'package:flutter/services.dart'
     show TextEditingValue, TextInputAction;
 
 /// A testing stub for the system's onscreen keyboard.

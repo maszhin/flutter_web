@@ -5,9 +5,9 @@
 import 'dart:async';
 import 'dart:convert' show json;
 import 'dart:developer' as developer;
-import 'package:flutter_web/io.dart' show exit;
+import 'package:flutter/io.dart' show exit;
 // Before adding any more dart:ui imports, pleaes read the README.
-import 'package:flutter_web_ui/ui.dart' as ui
+import 'package:flutter_ui/ui.dart' as ui
     show saveCompilationTrace, Window, window, isWeb;
 
 import 'package:meta/meta.dart';
@@ -153,7 +153,7 @@ abstract class BindingBase {
     }
 
     assert(() {
-      // TODO(flutter_web): reenable after cupertino widgets supported on web.
+      // TODO(flutter): reenable after cupertino widgets supported on web.
       if (ui.isWeb) return true;
       const String platformOverrideExtensionName = 'platformOverride';
       registerServiceExtension(

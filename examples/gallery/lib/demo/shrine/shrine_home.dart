@@ -4,8 +4,8 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:meta/meta.dart';
 
 import 'shrine_data.dart';

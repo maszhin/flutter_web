@@ -4,10 +4,10 @@
 
 import 'dart:math' as math;
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui
+import 'package:flutter_ui/ui.dart' as ui
     show Gradient, TextBox, lerpDouble;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 import 'alignment.dart';
 import 'basic_types.dart';

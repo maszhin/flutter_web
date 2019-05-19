@@ -30,7 +30,7 @@ void _styleEditingElement(html.HtmlElement domElement) {
       ..height = '1px';
   }
   if (browserEngine == BrowserEngine.webkit) {
-    // TODO(flutter_web): Remove once webkit issue of paragraphs incorrectly
+    // TODO(flutter): Remove once webkit issue of paragraphs incorrectly
     // rendering (shifting up) is resolved. Temporarily force relayout
     // a frame after input is created.
     html.window.animationFrame.then((num _) {
@@ -122,7 +122,7 @@ class EditingState {
 /// These types are coming from Flutter's [TextInputType]. Currently, we don't
 /// support all the types. We fallback to [InputType.text] when Flutter sends
 /// a type that isn't supported.
-// TODO(flutter_web): Support more types.
+// TODO(flutter): Support more types.
 enum InputType {
   /// Single-line plain text.
   text,

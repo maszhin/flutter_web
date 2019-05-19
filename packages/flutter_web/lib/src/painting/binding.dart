@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 import 'dart:typed_data' show Uint8List;
-import 'package:flutter_web_ui/ui.dart' as ui show instantiateImageCodec, Codec;
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/services.dart' show ServicesBinding;
+import 'package:flutter_ui/ui.dart' as ui show instantiateImageCodec, Codec;
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart' show ServicesBinding;
 
 import 'image_cache.dart';
 

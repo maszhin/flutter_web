@@ -4,12 +4,12 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
 
 import 'test_async_utils.dart';
 
-export 'package:flutter_web_ui/ui.dart' show Offset;
+export 'package:flutter_ui/ui.dart' show Offset;
 
 /// A class for generating coherent artificial pointer events.
 ///

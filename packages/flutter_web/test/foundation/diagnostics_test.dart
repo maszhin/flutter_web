@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 import 'dart:convert';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_ui/ui.dart';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 class TestTree extends Object with DiagnosticableTreeMixin {
   TestTree({

@@ -22,17 +22,17 @@ version: 1.0.0
 
 dependencies:
   ## REPLACE
-  ## Update your dependencies to use `flutter_web`
+  ## Update your dependencies to use `flutter`
   #flutter:
   #  sdk: flutter
-  flutter_web: any
+  flutter: any
 
 dev_dependencies:
   ## REPLACE
   ## Same goes for test packages
   #flutter_test:
   #  sdk: flutter
-  flutter_web_test: any
+  flutter_test: any
 
   ## ADD
   ## Add these dependencies to enable the Dart web build system
@@ -55,29 +55,29 @@ dev_dependencies:
 #     - asset: asset/fonts/plaster/Plaster-Regular.ttf
 
 ## ADD
-## flutter_web packages are not published to pub.dartlang.org
+## flutter packages are not published to pub.dartlang.org
 ## These overrides tell the package tools to get them from GitHub
 dependency_overrides:
-  flutter_web:
+  flutter:
     git:
-      url: https://github.com/flutter/flutter_web
-      path: packages/flutter_web
-  flutter_web_ui:
+      url: https://github.com/flutter/flutter
+      path: packages/flutter
+  flutter_ui:
     git:
-      url: https://github.com/flutter/flutter_web
-      path: packages/flutter_web_ui
-  flutter_web_test:
+      url: https://github.com/flutter/flutter
+      path: packages/flutter_ui
+  flutter_test:
     git:
-      url: https://github.com/flutter/flutter_web
-      path: packages/flutter_web_test
+      url: https://github.com/flutter/flutter
+      path: packages/flutter_test
 ```
 
 # `lib/`
 
-Change imports of `package:flutter` to `package:flutter_web` throughout
+Change imports of `package:flutter` to `package:flutter` throughout
 your application code.
 
-Change imports of `dart:ui` to `package:flutter_web_ui/ui.dart`.
+Change imports of `dart:ui` to `package:flutter_ui/ui.dart`.
 
 <!-- TODO: asset references -->
 <!-- TODO: flutter plugin imports -->
@@ -107,7 +107,7 @@ changing the `package:` import to match your application.
 ```
 
 ```dart
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter_ui/ui.dart' as ui;
 
 // TODO: change `my_app` to refer to your app package name.
 import 'package:my_app/main.dart' as app;

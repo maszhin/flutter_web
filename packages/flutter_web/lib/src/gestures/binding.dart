@@ -4,9 +4,9 @@
 
 import 'dart:async';
 import 'dart:collection';
-import 'package:flutter_web_ui/ui.dart' as ui show PointerDataPacket;
+import 'package:flutter_ui/ui.dart' as ui show PointerDataPacket;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 import 'arena.dart';
 import 'converter.dart';

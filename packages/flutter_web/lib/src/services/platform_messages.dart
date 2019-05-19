@@ -4,9 +4,9 @@
 
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter_ui/ui.dart' as ui;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 import 'platform_channel.dart';
 

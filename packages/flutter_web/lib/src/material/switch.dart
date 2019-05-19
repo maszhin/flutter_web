@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 
 import 'colors.dart';
 import 'constants.dart';
@@ -251,7 +251,7 @@ class _SwitchState extends State<Switch> with TickerProviderStateMixin {
 
   Widget buildCupertinoSwitch(BuildContext context) {
     throw UnimplementedError();
-    // TODO(flutter_web): Port CupertinoSwitch.
+    // TODO(flutter): Port CupertinoSwitch.
 //    final Size size = getSwitchSize(Theme.of(context));
 //    return Container(
 //      width: size.width,  // Same size as the Material switch.

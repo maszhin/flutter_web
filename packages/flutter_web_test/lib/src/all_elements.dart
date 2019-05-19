@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 
 /// Provides an iterable that efficiently returns all the elements
 /// rooted at the given element. See [CachingIterable] for details.

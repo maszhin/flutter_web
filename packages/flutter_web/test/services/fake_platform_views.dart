@@ -6,8 +6,8 @@ import 'dart:async';
 import 'dart:typed_data';
 import 'package:collection/collection.dart';
 
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/services.dart';
 
 class FakeAndroidPlatformViewsController {
   FakeAndroidPlatformViewsController() {

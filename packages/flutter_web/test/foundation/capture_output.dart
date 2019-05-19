@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import 'dart:async';
-import 'package:flutter_web_ui/ui.dart' show VoidCallback;
+import 'package:flutter_ui/ui.dart' show VoidCallback;
 
 List<String> captureOutput(VoidCallback fn) {
   final List<String> log = <String>[];

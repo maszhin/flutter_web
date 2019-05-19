@@ -4,24 +4,24 @@
 
 import 'dart:async';
 import 'dart:convert';
-import 'package:flutter_web/io.dart';
-import 'package:flutter_web_ui/ui.dart' as ui;
-import 'package:flutter_web_ui/src/engine.dart' as ui;
+import 'package:flutter/io.dart';
+import 'package:flutter_ui/ui.dart' as ui;
+import 'package:flutter_ui/src/engine.dart' as ui;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web_test/flutter_web_test.dart' show TestWindow;
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_test/flutter_test.dart' show TestWindow;
 import 'package:quiver/testing/async.dart';
 import 'package:quiver/time.dart';
 import 'package:test/test.dart' as test_package;
 import 'package:stack_trace/stack_trace.dart' as stack_trace;
 import 'package:vector_math/vector_math_64.dart';
 
-// TODO(flutter_web): implement goldens
+// TODO(flutter): implement goldens
 //import 'goldens.dart';
 import 'stack_manipulation.dart';
 import 'test_async_utils.dart';
@@ -257,7 +257,7 @@ abstract class TestWidgetsFlutterBinding extends BindingBase
   Future<void> setLocales(List<Locale> locales) {
     return TestAsyncUtils.guard<void>(() async {
       assert(inTest);
-      // TODO(flutter_web): Sync `dispatchLocalesChanged`.
+      // TODO(flutter): Sync `dispatchLocalesChanged`.
       // dispatchLocalesChanged(locales);
     });
   }
@@ -598,7 +598,7 @@ abstract class TestWidgetsFlutterBinding extends BindingBase
         child: _preTestMessage)); // Reset the tree to a known state.
     await pump();
 
-// TODO(flutter_web): implement goldens
+// TODO(flutter): implement goldens
 //    final bool autoUpdateGoldensBeforeTest = autoUpdateGoldenFiles;
     final TestExceptionReporter reportTestExceptionBeforeTest =
         reportTestException;
@@ -616,7 +616,7 @@ abstract class TestWidgetsFlutterBinding extends BindingBase
           child: _postTestMessage)); // Unmount any remaining widgets.
       await pump();
       invariantTester();
-// TODO(flutter_weblulu): implement goldens
+// TODO(flutterlulu): implement goldens
 //      _verifyAutoUpdateGoldensUnset(autoUpdateGoldensBeforeTest);
       _verifyReportTestExceptionUnset(reportTestExceptionBeforeTest);
       _verifyInvariants();
@@ -652,7 +652,7 @@ abstract class TestWidgetsFlutterBinding extends BindingBase
     ));
   }
 
-// TODO(flutter_web): implement goldens
+// TODO(flutter): implement goldens
 //  void _verifyAutoUpdateGoldensUnset(bool valueBeforeTest) {
 //    assert(() {
 //      if (autoUpdateGoldenFiles != valueBeforeTest) {
@@ -1073,7 +1073,7 @@ class LiveTestWidgetsFlutterBinding extends TestWidgetsFlutterBinding {
   @override
   void initInstances() {
     super.initInstances();
-// TODO(flutter_web): implement goldens
+// TODO(flutter): implement goldens
 //    assert(!autoUpdateGoldenFiles);
   }
 

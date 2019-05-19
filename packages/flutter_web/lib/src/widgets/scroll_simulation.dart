@@ -4,8 +4,8 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/physics.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/physics.dart';
 
 import '../util.dart';
 

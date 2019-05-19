@@ -1,4 +1,4 @@
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 import 'package:stack_trace/stack_trace.dart' as stack_trace;
 import 'package:test/test.dart' as test_package;
 

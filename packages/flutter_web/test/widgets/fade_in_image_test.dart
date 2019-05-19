@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 import 'dart:async';
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter_ui/ui.dart' as ui;
 
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
 import '../painting/image_test_utils.dart';
 
 Future<void> main() async {

@@ -4,7 +4,7 @@
 
 import 'package:meta/meta.dart';
 
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_ui/ui.dart';
 
 import '../util.dart';
 

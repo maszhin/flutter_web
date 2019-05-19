@@ -4,10 +4,10 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/src/util.dart';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/src/util.dart';
+import 'package:flutter_ui/ui.dart';
 
 import 'box.dart';
 import 'debug_overflow_indicator.dart';

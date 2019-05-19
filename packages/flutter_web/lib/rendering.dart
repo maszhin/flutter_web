@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-export 'package:flutter_web/foundation.dart'
+export 'package:flutter/foundation.dart'
     show VoidCallback, ValueChanged, ValueGetter, ValueSetter, DiagnosticLevel;
-export 'package:flutter_web/semantics.dart';
+export 'package:flutter/semantics.dart';
 export 'package:vector_math/vector_math_64.dart' show Matrix4;
 
 export 'src/rendering/animated_size.dart';

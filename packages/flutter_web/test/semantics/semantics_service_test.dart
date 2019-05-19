@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' show TextDirection;
+import 'package:flutter_ui/ui.dart' show TextDirection;
 
-import 'package:flutter_web/semantics.dart';
-import 'package:flutter_web/services.dart' show SystemChannels;
+import 'package:flutter/semantics.dart';
+import 'package:flutter/services.dart' show SystemChannels;
 import 'package:test/test.dart';
 
 void main() {

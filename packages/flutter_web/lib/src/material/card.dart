@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' show Clip;
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter_ui/ui.dart' show Clip;
+import 'package:flutter/widgets.dart';
 
 import 'card_theme.dart';
 import 'material.dart';

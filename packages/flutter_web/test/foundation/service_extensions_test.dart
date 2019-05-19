@@ -5,14 +5,14 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter_ui/ui.dart' as ui;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 import '../flutter_test_alternative.dart';
 
 class TestServiceExtensionsBinding extends BindingBase
@@ -125,7 +125,7 @@ void main() {
   final List<String> console = <String>[];
 
   test('Service extensions - pretest', () async {
-    // TODO(flutter_web): upstream initialization.
+    // TODO(flutter): upstream initialization.
     if (ui.isWeb) {
       webOnlyInitializeTestDomRenderer();
     }
@@ -660,7 +660,7 @@ void main() {
     expect(binding.frameScheduled, isFalse);
     expect(timeDilation, 1.0);
     result = await binding.testExtension('timeDilation', <String, String>{});
-    // TODO(flutter_web): upstream isWeb check.
+    // TODO(flutter): upstream isWeb check.
     expect(result, <String, String>{'timeDilation': ui.isWeb ? '1' : '1.0'});
     expect(timeDilation, 1.0);
     expect(extensionChangedEvents, isEmpty);
@@ -715,7 +715,7 @@ void main() {
 
     // If you add a service extension... TEST IT! :-)
     // ...then increment this number.
-    // TODO(flutter_web): upstream , 3 extensions are not supported for web.
+    // TODO(flutter): upstream , 3 extensions are not supported for web.
     expect(binding.extensions.length,
         25 + widgetInspectorExtensionCount - (ui.isWeb ? 5 : 0));
 

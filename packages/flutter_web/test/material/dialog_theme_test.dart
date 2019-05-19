@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 MaterialApp _appWithAlertDialog(WidgetTester tester, AlertDialog dialog,
     {ThemeData theme}) {
@@ -131,7 +131,7 @@ void main() {
     await tester.tap(find.text('X'));
     await tester.pumpAndSettle();
 
-    // TODO(flutter_web): golden support.
+    // TODO(flutter): golden support.
 //    await expectLater(
 //      find.byKey(_painterKey),
 //      matchesGoldenFile('dialog_theme.dialog_with_custom_border.png'),

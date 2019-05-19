@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web_ui/ui.dart' as ui show ParagraphBuilder;
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_ui/ui.dart' as ui show ParagraphBuilder;
 
 import 'basic_types.dart';
 import 'text_style.dart';

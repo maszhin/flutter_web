@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 class TestCanvas implements Canvas {
   TestCanvas([this.invocations]);
@@ -105,7 +105,7 @@ void main() {
     expect(thumbRect.isFinite, isTrue);
   });
 
-  // TODO(flutter_web): Renable, Web doesn't support Platform.iOS yet.
+  // TODO(flutter): Renable, Web doesn't support Platform.iOS yet.
 //  testWidgets('Adaptive scrollbar', (WidgetTester tester) async {
 //    Widget viewWithScroll(TargetPlatform platform) {
 //      return Directionality(

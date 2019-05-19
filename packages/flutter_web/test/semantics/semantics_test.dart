@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/semantics.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/semantics.dart';
 import 'package:vector_math/vector_math_64.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 import '../rendering/rendering_tester.dart';
 
@@ -347,7 +347,7 @@ void main() {
       '   flags: []\n'
       '   invisible\n'
       '   isHidden: false\n'
-      // TODO(flutter_web): upstream.
+      // TODO(flutter): upstream.
       '   isMultiline: false\n'
       '   label: ""\n'
       '   value: ""\n'
@@ -446,7 +446,7 @@ void main() {
       '   flags: []\n'
       '   invisible\n'
       '   isHidden: false\n'
-      // TODO(flutter_web): upstream.
+      // TODO(flutter): upstream.
       '   isMultiline: false\n'
       '   label: ""\n'
       '   value: ""\n'

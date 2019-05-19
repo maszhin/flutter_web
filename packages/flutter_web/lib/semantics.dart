@@ -4,7 +4,7 @@
 
 /// The Flutter semantics package.
 ///
-/// To use, import `package:flutter_web/semantics.dart`.
+/// To use, import `package:flutter/semantics.dart`.
 ///
 /// The [SemanticsEvent] classes define the protocol for sending semantic events
 /// to the platform.

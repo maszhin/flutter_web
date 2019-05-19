@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 import 'dart:async';
-import 'package:flutter_web_ui/ui.dart' show TextDirection;
+import 'package:flutter_ui/ui.dart' show TextDirection;
 
-import 'package:flutter_web/services.dart' show SystemChannels;
+import 'package:flutter/services.dart' show SystemChannels;
 
 import 'semantics_event.dart'
     show AnnounceSemanticsEvent, TooltipSemanticsEvent;

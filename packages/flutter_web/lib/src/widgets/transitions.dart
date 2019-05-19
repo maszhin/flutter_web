@@ -4,15 +4,15 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/animation.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/animation.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 import 'package:vector_math/vector_math_64.dart' show Matrix4;
 
 import 'container.dart';
 import 'framework.dart';
 
-export 'package:flutter_web/rendering.dart' show RelativeRect;
+export 'package:flutter/rendering.dart' show RelativeRect;
 
 /// A widget that rebuilds when the given [Listenable] changes value.
 ///

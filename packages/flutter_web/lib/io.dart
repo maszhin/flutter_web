@@ -4,7 +4,7 @@
 
 /// This library stubs out `dart:io` so we can compile for the Web.
 // TODO(yjbanov): we need a longer-term plan for this.
-library flutter_web.io;
+library flutter.io;
 
 import 'dart:async';
 import 'dart:convert' show Encoding;

@@ -4,7 +4,7 @@
 
 import 'package:collection/collection.dart' show binarySearch;
 
-import 'package:flutter_web/animation.dart';
+import 'package:flutter/animation.dart';
 
 import 'basic.dart';
 import 'framework.dart';

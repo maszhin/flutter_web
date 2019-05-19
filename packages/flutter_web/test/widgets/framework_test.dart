@@ -6,9 +6,9 @@ import 'dart:async';
 
 import 'package:matcher/matcher.dart' as matcher;
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 main() {
   group('Tree', () {

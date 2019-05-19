@@ -4,8 +4,8 @@
 
 import 'package:meta/meta.dart';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/scheduler.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/scheduler.dart';
 
 import 'framework.dart';
 

@@ -9,5 +9,5 @@
 * Access to this repository and source code is invitation-only.
 * Do not fork, share, or publish any source code from this repository.
 * Do not discuss the contents of this repository except via the [issue
-  tracker](https://github.com/flutter/flutter_web/issues) and the [discussion
-  group](https://groups.google.com/forum/#!forum/flutter_web_early_access).
+  tracker](https://github.com/flutter/flutter/issues) and the [discussion
+  group](https://groups.google.com/forum/#!forum/flutter_early_access).

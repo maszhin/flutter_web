@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 import 'dart:math' as math;
-import 'package:flutter_web_ui/ui.dart' show SemanticsFlag;
-import 'package:flutter_web_ui/ui.dart' as ui show window;
+import 'package:flutter_ui/ui.dart' show SemanticsFlag;
+import 'package:flutter_ui/ui.dart' as ui show window;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web/rendering.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/rendering.dart';
 
 import 'basic.dart';
 import 'binding.dart';

@@ -4,13 +4,13 @@
 
 import 'dart:typed_data';
 
-import 'package:flutter_web/animation.dart';
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/src/scheduler/ticker.dart';
-import 'package:flutter_web_ui/ui.dart' as ui show Image;
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/animation.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/src/scheduler/ticker.dart';
+import 'package:flutter_ui/ui.dart' as ui show Image;
+import 'package:flutter_test/flutter_test.dart';
 
 import 'rendering_tester.dart';
 

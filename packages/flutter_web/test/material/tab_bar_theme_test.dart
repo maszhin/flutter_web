@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 const String _tab1Text = 'tab 1';
 const String _tab2Text = 'tab 2';
@@ -72,7 +72,7 @@ void main() {
     expect(iconRenderObject.text.style.color, equals(unselectedLabelColor));
   });
 
-  // TODO(flutter_web): Uncomment these tests when we port goldens.
+  // TODO(flutter): Uncomment these tests when we port goldens.
 
   // testWidgets('Tab bar theme overrides tab indicator size (tab)', (WidgetTester tester) async {
   //   const TabBarTheme tabBarTheme = TabBarTheme(indicatorSize: TabBarIndicatorSize.tab);

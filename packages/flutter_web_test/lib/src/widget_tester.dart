@@ -1,13 +1,13 @@
 import 'dart:async';
 
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web_ui/ui.dart';
-import 'package:flutter_web_ui/src/engine.dart' as engine;
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web/src/util.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter_ui/ui.dart';
+import 'package:flutter_ui/src/engine.dart' as engine;
+import 'package:flutter/widgets.dart';
+import 'package:flutter/src/util.dart';
 import 'package:meta/meta.dart';
 import 'package:test/test.dart' as test_package;
 
@@ -20,7 +20,7 @@ import 'test_async_utils.dart';
 import 'test_text_input.dart';
 
 /// Keep users from needing multiple imports to test semantics.
-export 'package:flutter_web/rendering.dart' show SemanticsHandle;
+export 'package:flutter/rendering.dart' show SemanticsHandle;
 
 export 'package:test/test.dart'
     hide

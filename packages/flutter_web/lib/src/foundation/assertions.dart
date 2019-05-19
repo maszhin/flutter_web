@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' show isWeb;
+import 'package:flutter_ui/ui.dart' show isWeb;
 import 'basic_types.dart';
 import 'print.dart';
 
@@ -444,7 +444,7 @@ void debugPrintStack({String label, int maxFrames}) {
   if (label != null) debugPrint(label);
   Iterable<String> lines =
       StackTrace.current.toString().trimRight().split('\n');
-  // TODO(flutter_web) , upstream or remove when b:/125389999 is fixed
+  // TODO(flutter) , upstream or remove when b:/125389999 is fixed
   if (isWeb) {
     lines = lines.skip(1);
   }

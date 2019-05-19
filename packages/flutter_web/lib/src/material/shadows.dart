@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' show Color, Offset;
+import 'package:flutter_ui/ui.dart' show Color, Offset;
 
-import 'package:flutter_web/painting.dart';
+import 'package:flutter/painting.dart';
 
 // Based on http://material.google.com/what-is-material/elevation-shadows.html
 // Currently, only the elevation values that are bound to one or more widgets are

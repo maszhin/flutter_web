@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 import 'dart:developer';
-import 'package:flutter_web/io.dart' show Platform;
-import 'package:flutter_web_ui/ui.dart' as ui show Scene, SceneBuilder, Window;
+import 'package:flutter/io.dart' show Platform;
+import 'package:flutter_ui/ui.dart' as ui show Scene, SceneBuilder, Window;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web/src/util.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/src/util.dart';
 import 'package:vector_math/vector_math_64.dart';
 
 import 'binding.dart';

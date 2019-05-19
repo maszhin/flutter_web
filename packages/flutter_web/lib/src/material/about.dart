@@ -4,9 +4,9 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web/widgets.dart' hide Flow;
+import 'package:flutter/foundation.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/widgets.dart' hide Flow;
 
 import 'app_bar.dart';
 import 'debug.dart';

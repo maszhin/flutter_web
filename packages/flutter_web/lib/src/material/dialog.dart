@@ -4,9 +4,9 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web_ui/ui.dart' hide TextStyle;
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter_ui/ui.dart' hide TextStyle;
+import 'package:flutter/widgets.dart';
 
 import 'button_bar.dart';
 import 'button_theme.dart';

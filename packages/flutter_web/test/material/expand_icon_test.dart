@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   testWidgets('ExpandIcon test', (WidgetTester tester) async {
@@ -67,7 +67,7 @@ void main() {
     expect(rotation.turns.value, 0.5);
   });
 
-  // TODO(flutter_web): reenable Semantics test
+  // TODO(flutter): reenable Semantics test
 //  testWidgets('ExpandIcon has correct semantic hints', (WidgetTester tester) async {
 //    final SemanticsHandle handle = tester.ensureSemantics();
 //    const DefaultMaterialLocalizations localizations = DefaultMaterialLocalizations();

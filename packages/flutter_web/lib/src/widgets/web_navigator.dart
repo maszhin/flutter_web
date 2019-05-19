@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/widgets.dart' show NavigatorObserver, Route;
+import 'package:flutter/widgets.dart' show NavigatorObserver, Route;
 
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter_ui/ui.dart' as ui;
 
 /// Observes all changes happening in routes and notifies the browser history
 /// integration to update the route name.
@@ -13,7 +13,7 @@ import 'package:flutter_web_ui/ui.dart' as ui;
 /// [WebOnlyNavigatorObserver] has to be added as an observer to [MaterialApp].
 ///
 /// ```dart
-/// import 'package:flutter_web/widgets.dart';
+/// import 'package:flutter/widgets.dart';
 ///
 /// class MyApp extends StatelessWidget {
 ///   Widget build(BuildContext context) {

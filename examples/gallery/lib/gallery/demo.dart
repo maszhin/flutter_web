@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 class ComponentDemoTabData {
   ComponentDemoTabData({
@@ -139,7 +139,7 @@ class MaterialDemoDocumentationButton extends StatelessWidget {
     return IconButton(
         icon: const Icon(Icons.library_books),
         tooltip: 'API documentation',
-        // TODO(flutter_web): launch(documentationUrl, forceWebView: true)
+        // TODO(flutter): launch(documentationUrl, forceWebView: true)
         onPressed: () => {});
   }
 }
@@ -195,7 +195,7 @@ class CupertinoDemoDocumentationButton extends StatelessWidget {
           label: 'API documentation',
           child: const Icon(CupertinoIcons.book),
         ),
-        // TODO(flutter_web): launch(documentationUrl, forceWebView: true)
+        // TODO(flutter): launch(documentationUrl, forceWebView: true)
         onPressed: () => {});
   }
 }

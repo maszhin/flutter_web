@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   const TextStyle textStyle = TextStyle();
@@ -302,7 +302,7 @@ void main() {
     expect(find.byType(EditableText), findsOneWidget);
     expect(render.size.height, greaterThan(500.0));
     expect(scrollController.offset, greaterThan(0.0));
-  }, skip: true); // TODO(flutter_web): reenable after multiline support added.
+  }, skip: true); // TODO(flutter): reenable after multiline support added.
 
   testWidgets('scrolls into view with scrollInserts after the keyboard pops up',
       (WidgetTester tester) async {

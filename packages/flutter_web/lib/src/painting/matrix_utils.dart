@@ -5,12 +5,12 @@
 import 'dart:math' as math;
 import 'dart:typed_data';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/painting.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/painting.dart';
 import 'package:meta/meta.dart';
 import 'package:vector_math/vector_math_64.dart';
 
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_ui/ui.dart';
 
 /// Utility functions for working with matrices.
 class MatrixUtils {
@@ -267,7 +267,7 @@ List<String> debugDescribeTransform(Matrix4 transform) {
   return matrix;
 }
 
-// TODO(flutter_web): upstream to flutter.
+// TODO(flutter): upstream to flutter.
 String _transformRowToString(Matrix4 transform, int rowIndex) {
   Vector4 row = transform.getRow(rowIndex);
   return '[$rowIndex] ${debugPrintDouble(row[0])},'

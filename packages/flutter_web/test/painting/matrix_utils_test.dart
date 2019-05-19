@@ -4,8 +4,8 @@
 
 import 'dart:math';
 
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/painting.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/painting.dart';
 import 'package:vector_math/vector_math_64.dart';
 
 void main() {

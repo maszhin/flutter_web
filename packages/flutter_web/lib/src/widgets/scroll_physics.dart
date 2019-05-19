@@ -4,16 +4,16 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/physics.dart';
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/physics.dart';
+import 'package:flutter_ui/ui.dart' as ui;
 
 import 'overscroll_indicator.dart';
 import 'scroll_metrics.dart';
 import 'scroll_simulation.dart';
 
-export 'package:flutter_web/physics.dart'
+export 'package:flutter/physics.dart'
     show Simulation, ScrollSpringSimulation, Tolerance;
 
 /// Determines the physics of a [Scrollable] widget.

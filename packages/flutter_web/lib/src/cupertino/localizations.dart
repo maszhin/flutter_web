@@ -4,8 +4,8 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
 
 /// Determines the order of the columns inside [CupertinoDatePicker] in
 /// time and date time mode.

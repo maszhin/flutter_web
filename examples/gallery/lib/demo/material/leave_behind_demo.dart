@@ -4,8 +4,8 @@
 
 import 'package:collection/collection.dart' show lowerBound;
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/semantics.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/semantics.dart';
 
 import '../../gallery/demo.dart';
 

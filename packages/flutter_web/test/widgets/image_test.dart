@@ -4,12 +4,12 @@
 
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui show Image, ImageByteFormat;
+import 'package:flutter_ui/ui.dart' as ui show Image, ImageByteFormat;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 import '../painting/image_data.dart';
 import 'semantics_tester.dart';

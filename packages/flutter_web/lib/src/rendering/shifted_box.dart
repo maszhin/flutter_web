@@ -4,9 +4,9 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter_ui/ui.dart';
 import 'package:meta/meta.dart';
 
 import 'box.dart';

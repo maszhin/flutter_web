@@ -4,9 +4,9 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/foundation.dart' show defaultTargetPlatform;
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/scheduler.dart' show timeDilation;
+import 'package:flutter/foundation.dart' show defaultTargetPlatform;
+import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart' show timeDilation;
 
 import 'demos.dart';
 import 'home.dart';

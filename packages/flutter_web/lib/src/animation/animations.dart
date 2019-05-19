@@ -6,7 +6,7 @@ import 'dart:math' as math;
 
 import 'package:meta/meta.dart';
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 import 'animation.dart';
 import 'curves.dart';

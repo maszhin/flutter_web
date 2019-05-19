@@ -8,10 +8,10 @@ import 'dart:typed_data';
 
 import 'package:quiver/testing/async.dart';
 
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web_ui/src/engine.dart' hide Matrix4;
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_ui/src/engine.dart' hide Matrix4;
+import 'package:flutter_ui/ui.dart' as ui;
 
 import '../widgets/semantics_tester.dart';
 

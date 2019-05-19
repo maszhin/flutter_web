@@ -4,10 +4,10 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 
 import 'button.dart';
 import 'colors.dart';
@@ -136,7 +136,7 @@ Widget _wrapWithBackground({
   if (backgroundColor.alpha == 0xFF) return childWithBackground;
 
   return childWithBackground;
-  // TODO(flutter_web): Support ImageFilter.blur.
+  // TODO(flutter): Support ImageFilter.blur.
   //  return ClipRect(
   //    child: BackdropFilter(
   //      filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),

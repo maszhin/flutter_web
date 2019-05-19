@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/cupertino.dart';
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 
 import 'app_bar_theme.dart';
 import 'bottom_app_bar_theme.dart';
@@ -24,7 +24,7 @@ import 'tab_bar_theme.dart';
 import 'text_theme.dart';
 import 'typography.dart';
 
-export 'package:flutter_web/services.dart' show Brightness;
+export 'package:flutter/services.dart' show Brightness;
 
 // Deriving these values is black magic. The spec claims that pressed buttons
 // have a highlight of 0x66999999, but that's clearly wrong. The videos in the

@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' show Shader;
+import 'package:flutter_ui/ui.dart' show Shader;
 
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/widgets.dart';
 
 Shader createShader(Rect bounds) {
   return const LinearGradient(
@@ -20,7 +20,7 @@ void main() {
     final Widget child = Container(width: 100.0, height: 100.0);
     await tester
         .pumpWidget(ShaderMask(child: child, shaderCallback: createShader));
-  }, skip: true); // TODO(flutter_web): pushShaderMask not implemented yet.
+  }, skip: true); // TODO(flutter): pushShaderMask not implemented yet.
 
   testWidgets('Bounds rect includes offset', (WidgetTester tester) async {
     Rect shaderBounds;
@@ -43,5 +43,5 @@ void main() {
 
     // The shader bounds rectangle should reflect the position of the centered SizedBox.
     expect(shaderBounds, equals(Rect.fromLTWH(200.0, 100.0, 400.0, 400.0)));
-  }, skip: true); // TODO(flutter_web): pushShaderMask not implemented yet.
+  }, skip: true); // TODO(flutter): pushShaderMask not implemented yet.
 }

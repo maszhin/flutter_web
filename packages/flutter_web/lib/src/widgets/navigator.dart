@@ -5,10 +5,10 @@
 import 'dart:async';
 import 'dart:developer' as developer;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web_ui/ui.dart' show isWeb;
+import 'package:flutter/foundation.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter_ui/ui.dart' show isWeb;
 
 import 'basic.dart';
 import '../widgets/binding.dart';
@@ -1521,7 +1521,7 @@ class NavigatorState extends State<Navigator> with TickerProviderStateMixin {
         }
       }
 
-      // TODO(flutter_web): Upstream.
+      // TODO(flutter): Upstream.
       if (_shouldAbandonInitialRoute(plannedInitialRoutes)) {
         assert(() {
           FlutterError.reportError(
@@ -1605,7 +1605,7 @@ class NavigatorState extends State<Navigator> with TickerProviderStateMixin {
   bool _debugLocked =
       false; // used to prevent re-entrant calls to push, pop, and friends
 
-  // TODO(flutter_web): Upstream.
+  // TODO(flutter): Upstream.
   bool _shouldAbandonInitialRoute(List<Route<dynamic>> plannedInitialRoutes) {
     assert(plannedInitialRoutes.length > 0);
 

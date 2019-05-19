@@ -762,7 +762,7 @@ function _stringForBlendMode(blendMode) {
       return 'xor';
     case BlendMode.multiply:
       // Falling back to multiply, ignoring alpha channel.
-      // TODO(flutter_web): only used for debug, find better fallback for web.
+      // TODO(flutter): only used for debug, find better fallback for web.
     case BlendMode.modulate:
       return 'multiply';
     case BlendMode.screen:

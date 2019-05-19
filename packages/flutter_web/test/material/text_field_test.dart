@@ -4,15 +4,15 @@
 
 import 'dart:async';
 import 'dart:math' as math;
-import 'package:flutter_web_ui/ui.dart' as ui show window;
+import 'package:flutter_ui/ui.dart' as ui show window;
 
-import 'package:flutter_web/cupertino.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart'
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart'
     show DragStartBehavior, PointerDeviceKind;
 
 import '../widgets/semantics_tester.dart';
@@ -5308,7 +5308,7 @@ void main() {
         const Size(800, 174),
       );
     },
-    // TODO(flutter_web): unskip when strut styles are fully implemented.
+    // TODO(flutter): unskip when strut styles are fully implemented.
     skip: true,
   );
 
@@ -5338,7 +5338,7 @@ void main() {
         const Size(800, 48),
       );
     },
-    // TODO(flutter_web): unskip when strut styles are fully implemented.
+    // TODO(flutter): unskip when strut styles are fully implemented.
     skip: true,
   );
 
@@ -5370,7 +5370,7 @@ void main() {
         const Size(800, 78),
       );
     },
-    // TODO(flutter_web): unskip when strut styles are fully implemented.
+    // TODO(flutter): unskip when strut styles are fully implemented.
     skip: true,
   );
 

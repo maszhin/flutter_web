@@ -4,11 +4,11 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_test/flutter_test.dart';
 
-// TODO(flutter_web): Add Semantics tests.
+// TODO(flutter): Add Semantics tests.
 
 class TestIcon extends StatefulWidget {
   const TestIcon({Key key}) : super(key: key);

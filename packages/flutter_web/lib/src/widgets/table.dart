@@ -4,15 +4,15 @@
 
 import 'dart:collection';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/rendering.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/rendering.dart';
 
 import 'basic.dart';
 import 'debug.dart';
 import 'framework.dart';
 import 'image.dart';
 
-export 'package:flutter_web/rendering.dart'
+export 'package:flutter/rendering.dart'
     show
         FixedColumnWidth,
         FlexColumnWidth,

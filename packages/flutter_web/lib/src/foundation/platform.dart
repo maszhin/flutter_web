@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// TODO(flutter_web): this file differs from that of Flutter. We should provide
+// TODO(flutter): this file differs from that of Flutter. We should provide
 //                    a proper implementation for the Web.
 
 /// The platform that user interaction should adapt to target.

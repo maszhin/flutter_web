@@ -64,8 +64,8 @@ abstract class LocationStrategy {
 /// [ui.window.webOnlyLocationStrategy]:
 ///
 /// ```dart
-/// import 'package:flutter_web/material.dart';
-/// import 'package:flutter_web/ui.dart' as ui;
+/// import 'package:flutter/material.dart';
+/// import 'package:flutter/ui.dart' as ui;
 ///
 /// void main() {
 ///   ui.window.webOnlyLocationStrategy = const ui.HashLocationStrategy();

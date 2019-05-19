@@ -6,15 +6,15 @@ import 'dart:async';
 import 'dart:collection';
 import 'dart:developer';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/rendering.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/rendering.dart';
 
 import 'debug.dart';
 import 'focus_manager.dart';
 
-export 'package:flutter_web_ui/ui.dart' show hashValues, hashList;
+export 'package:flutter_ui/ui.dart' show hashValues, hashList;
 
-export 'package:flutter_web/foundation.dart'
+export 'package:flutter/foundation.dart'
     show
         immutable,
         mustCallSuper,
@@ -23,13 +23,13 @@ export 'package:flutter_web/foundation.dart'
         required,
         visibleForTesting;
 
-export 'package:flutter_web/foundation.dart'
+export 'package:flutter/foundation.dart'
     show FlutterError, debugPrint, debugPrintStack;
-export 'package:flutter_web/foundation.dart'
+export 'package:flutter/foundation.dart'
     show VoidCallback, ValueChanged, ValueGetter, ValueSetter;
-export 'package:flutter_web/foundation.dart' show DiagnosticLevel;
-export 'package:flutter_web/foundation.dart' show Key, LocalKey, ValueKey;
-export 'package:flutter_web/rendering.dart'
+export 'package:flutter/foundation.dart' show DiagnosticLevel;
+export 'package:flutter/foundation.dart' show Key, LocalKey, ValueKey;
+export 'package:flutter/rendering.dart'
     show RenderObject, RenderBox, debugDumpRenderTree, debugDumpLayerTree;
 
 // Examples can assume:
@@ -1734,7 +1734,7 @@ class _InactiveElements {
     }
   }
 
-  // TODO(flutter_web): upstream, static tear-off instead of binding to this.
+  // TODO(flutter): upstream, static tear-off instead of binding to this.
   static void _deactivateRecursively(Element element) {
     assert(element._debugLifecycleState == _ElementLifecycle.active);
     element.deactivate();

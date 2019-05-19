@@ -4,8 +4,8 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_ui/ui.dart';
 
 /// Defines the appearance of an [InputDecorator]'s border.
 ///

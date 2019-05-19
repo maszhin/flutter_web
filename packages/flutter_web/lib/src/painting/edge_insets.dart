@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/src/util.dart';
+import 'package:flutter/src/util.dart';
 
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter_ui/ui.dart';
 
 /// Base class for [EdgeInsets] that allows for text-direction aware
 /// resolution.

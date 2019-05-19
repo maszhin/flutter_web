@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' as ui show TextStyle, ParagraphStyle;
+import 'package:flutter_ui/ui.dart' as ui show TextStyle, ParagraphStyle;
 
-import 'package:flutter_web/painting.dart';
+import 'package:flutter/painting.dart';
 import '../flutter_test_alternative.dart';
 
 void main() {

@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 import 'dart:math';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_ui/ui.dart';
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/semantics.dart';
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/semantics.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 import 'semantics_tester.dart';
 
@@ -495,7 +495,7 @@ void main() {
       liveRegion: true,
     ));
     final List<SemanticsFlag> flags = SemanticsFlag.values.values.toList()
-      // TODO(flutter_web): upstream.
+      // TODO(flutter): upstream.
       ..remove(SemanticsFlag.isMultiline);
     flags
       ..remove(SemanticsFlag.hasToggledState)

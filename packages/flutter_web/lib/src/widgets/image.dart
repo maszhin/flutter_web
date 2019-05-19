@@ -5,10 +5,10 @@
 import 'dart:async';
 import 'dart:typed_data';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web/semantics.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/semantics.dart';
 
 import 'basic.dart';
 import 'framework.dart';
@@ -16,7 +16,7 @@ import 'localizations.dart';
 import 'media_query.dart';
 import 'ticker_provider.dart';
 
-export 'package:flutter_web/painting.dart'
+export 'package:flutter/painting.dart'
     show
         AssetImage,
         ExactAssetImage,

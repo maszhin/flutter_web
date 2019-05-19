@@ -4,7 +4,7 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter_ui/ui.dart' as ui;
 import 'package:meta/meta.dart';
 
 import '../util.dart';

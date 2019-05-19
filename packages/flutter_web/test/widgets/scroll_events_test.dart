@@ -4,8 +4,8 @@
 
 import 'dart:async';
 
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/widgets.dart';
 
 Widget _buildScroller({List<String> log}) {
   return new NotificationListener<ScrollNotification>(

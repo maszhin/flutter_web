@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// TODO(flutter_web): implement golden file tests.
+// TODO(flutter): implement golden file tests.
 import 'dart:math' as math;
-import 'package:flutter_web_ui/ui.dart' show window;
-import 'package:flutter_web/io.dart';
+import 'package:flutter_ui/ui.dart' show window;
+import 'package:flutter/io.dart';
 
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 import '../widgets/semantics_tester.dart';
 
@@ -250,7 +250,7 @@ void main() {
     expect(value, equals('two'));
   });
 
-  // TODO(flutter_web): port DropdownButtonFormField.
+  // TODO(flutter): port DropdownButtonFormField.
 //  testWidgets('Dropdown form field', (WidgetTester tester) async {
 //    String value = 'one';
 //

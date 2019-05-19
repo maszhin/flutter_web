@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:math' as math;
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter_ui/ui.dart' as ui;
 
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/semantics.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/semantics.dart';
+import 'package:flutter/widgets.dart';
 
 import 'finders.dart';
 import 'widget_tester.dart';

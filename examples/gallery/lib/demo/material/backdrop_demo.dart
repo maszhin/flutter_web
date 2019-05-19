@@ -4,7 +4,7 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 
 // This demo displays one Category at a time. The backdrop show a list
 // of all of the categories and the selected category is displayed

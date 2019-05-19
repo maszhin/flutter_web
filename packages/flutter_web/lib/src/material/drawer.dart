@@ -4,9 +4,9 @@
 
 import 'dart:math';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart' show DragStartBehavior;
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart' show DragStartBehavior;
+import 'package:flutter/widgets.dart';
 
 import 'colors.dart';
 import 'debug.dart';

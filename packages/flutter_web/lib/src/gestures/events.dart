@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' show Offset, PointerDeviceKind;
+import 'package:flutter_ui/ui.dart' show Offset, PointerDeviceKind;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
-export 'package:flutter_web_ui/ui.dart' show Offset, PointerDeviceKind;
+export 'package:flutter_ui/ui.dart' show Offset, PointerDeviceKind;
 
 /// The bit of [PointerEvent.buttons] that corresponds to a unified behavior of
 /// "basic operation".

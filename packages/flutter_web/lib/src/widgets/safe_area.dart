@@ -4,7 +4,7 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 import 'basic.dart';
 import 'debug.dart';

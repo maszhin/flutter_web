@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/semantics.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/material.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/semantics.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   group('$ReorderableListView', () {
@@ -520,7 +520,7 @@ void main() {
 
           handle.dispose();
         });
-// TODO(flutter_web): Semantics.
+// TODO(flutter): Semantics.
 //        testWidgets("Doesn't hide accessibility when a child declares its own semantics", (WidgetTester tester) async {
 //          final SemanticsHandle handle = tester.ensureSemantics();
 //          final Widget reorderableListView = ReorderableListView(

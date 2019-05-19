@@ -4,9 +4,9 @@
 
 import 'dart:async';
 
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/gestures.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/gestures.dart';
 
 void main() {
   testWidgets('Drag and drop - control test', (WidgetTester tester) async {

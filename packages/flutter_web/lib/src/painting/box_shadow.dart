@@ -4,8 +4,8 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web_ui/ui.dart' as ui show lerpDouble;
+import 'package:flutter/foundation.dart';
+import 'package:flutter_ui/ui.dart' as ui show lerpDouble;
 
 import 'debug.dart';
 import 'basic_types.dart';

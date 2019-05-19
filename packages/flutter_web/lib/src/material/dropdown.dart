@@ -4,7 +4,7 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/widgets.dart';
 
 import 'button_theme.dart';
 import 'colors.dart';

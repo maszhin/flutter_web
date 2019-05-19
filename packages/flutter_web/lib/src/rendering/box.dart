@@ -7,10 +7,10 @@ import 'dart:math' as math;
 import 'package:meta/meta.dart';
 import 'package:vector_math/vector_math_64.dart';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web_ui/ui.dart' as ui show lerpDouble;
-import 'package:flutter_web/src/util.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter_ui/ui.dart' as ui show lerpDouble;
+import 'package:flutter/src/util.dart';
 
 import 'debug.dart';
 import 'object.dart';

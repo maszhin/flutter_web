@@ -4,7 +4,7 @@
 
 /// Flutter widgets implementing the current iOS design language.
 ///
-/// To use, import `package:flutter_web/cupertino.dart`.
+/// To use, import `package:flutter/cupertino.dart`.
 library cupertino;
 
 // export 'src/cupertino/action_sheet.dart';

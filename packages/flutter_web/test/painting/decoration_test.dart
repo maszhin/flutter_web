@@ -4,11 +4,11 @@
 
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui
+import 'package:flutter_ui/ui.dart' as ui
     show Image, ImageByteFormat, ColorFilter;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/painting.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/painting.dart';
 import 'package:quiver/testing/async.dart';
 import '../flutter_test_alternative.dart';
 

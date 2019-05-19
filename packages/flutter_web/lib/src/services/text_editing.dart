@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart'
+import 'package:flutter_ui/ui.dart'
     show hashValues, TextAffinity, TextPosition;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
-export 'package:flutter_web_ui/ui.dart' show TextAffinity, TextPosition;
+export 'package:flutter_ui/ui.dart' show TextAffinity, TextPosition;
 
 /// A range of characters in a string of text.
 @immutable

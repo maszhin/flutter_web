@@ -5,8 +5,8 @@
 import 'dart:async';
 
 import 'package:meta/meta.dart';
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/scheduler.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/scheduler.dart';
 
 /// Signature for the callback passed to the [Ticker] class's constructor.
 ///

@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
-import 'package:flutter_web_ui/ui.dart';
-import 'package:flutter_web_ui/ui.dart' as ui show lerpDouble;
+import 'package:flutter_ui/ui.dart';
+import 'package:flutter_ui/ui.dart' as ui show lerpDouble;
 
 /// Defines the color, opacity, and size of icons.
 ///

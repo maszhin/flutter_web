@@ -4,8 +4,8 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web_ui/ui.dart' as ui show isWeb;
+import 'package:flutter/foundation.dart';
+import 'package:flutter_ui/ui.dart' as ui show isWeb;
 import '../flutter_test_alternative.dart';
 
 void main() {
@@ -48,7 +48,7 @@ void main() {
     Object exception;
     try {
       await future.whenComplete(() {
-        // TODO(flutter_web): Remove once b://126556714 is resolved.
+        // TODO(flutter): Remove once b://126556714 is resolved.
         if (ui.isWeb) {
           throw NullThrownError();
         } else {

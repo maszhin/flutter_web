@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' as ui
+import 'package:flutter_ui/ui.dart' as ui
     show AccessibilityFeatures, window;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 import 'debug.dart';
 
-export 'package:flutter_web_ui/ui.dart' show AccessibilityFeatures;
+export 'package:flutter_ui/ui.dart' show AccessibilityFeatures;
 
 /// The glue between the semantics layer and the Flutter engine.
 // TODO(jonahwilliams): move the remaining semantic related bindings here.

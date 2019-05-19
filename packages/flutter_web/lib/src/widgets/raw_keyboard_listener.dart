@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 
 import 'basic.dart';
 import 'focus_manager.dart';
 import 'framework.dart';
 
-export 'package:flutter_web/services.dart' show RawKeyEvent;
+export 'package:flutter/services.dart' show RawKeyEvent;
 
 /// A widget that calls a callback whenever the user presses or releases a key
 /// on a keyboard.

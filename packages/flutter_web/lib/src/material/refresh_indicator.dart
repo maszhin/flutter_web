@@ -5,7 +5,7 @@
 import 'dart:async';
 import 'dart:math' as math;
 
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/widgets.dart';
 
 import 'progress_indicator.dart';
 import 'theme.dart';

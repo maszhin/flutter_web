@@ -4,10 +4,10 @@
 
 export 'package:vector_math/vector_math_64.dart' show Matrix4;
 
-export 'package:flutter_web/foundation.dart';
-export 'package:flutter_web/physics.dart';
-export 'package:flutter_web/scheduler.dart';
-export 'package:flutter_web/services.dart';
+export 'package:flutter/foundation.dart';
+export 'package:flutter/physics.dart';
+export 'package:flutter/scheduler.dart';
+export 'package:flutter/services.dart';
 
 export 'src/widgets/animated_cross_fade.dart';
 export 'src/widgets/animated_list.dart';

@@ -4,9 +4,9 @@
 
 import 'dart:typed_data';
 
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 
 class MemoryPressureObserver with WidgetsBindingObserver {
   bool sawMemoryPressure = false;

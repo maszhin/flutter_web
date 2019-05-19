@@ -4,8 +4,8 @@
 
 import 'dart:html' as html;
 
-import 'package:flutter_web_ui/src/engine.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter_ui/src/engine.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   test('creating elements works', () {

@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:meta/meta.dart';
-import 'package:flutter_web_ui/ui.dart' show hashValues;
+import 'package:flutter_ui/ui.dart' show hashValues;
 
 /// A Key is an identifier for [Widget]s and [Element]s. A new Widget will only
 /// be used to reconfigure an existing Element if its Key is the same as its

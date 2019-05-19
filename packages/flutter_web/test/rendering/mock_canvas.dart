@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' as ui show Paragraph, Image;
+import 'package:flutter_ui/ui.dart' as ui show Paragraph, Image;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 import 'recording_canvas.dart';
 
@@ -1092,7 +1092,7 @@ abstract class _DrawCommandPaintPredicate extends _PaintPredicate {
   @mustCallSuper
   void verifyArguments(List<dynamic> arguments) {
     final Paint paintArgument = arguments[paintArgumentIndex];
-    // TODO(flutter_web): sync change up to flutter so that
+    // TODO(flutter): sync change up to flutter so that
     // matcher compares absolute color instead of failing when comparing
     // ColorSwatch/MaterialColor with Color instance.
     if (color != null && paintArgument.color.value != color.value)

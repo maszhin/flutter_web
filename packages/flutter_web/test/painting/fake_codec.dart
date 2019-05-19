@@ -4,10 +4,10 @@
 
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui
+import 'package:flutter_ui/ui.dart' as ui
     show Codec, FrameInfo, instantiateImageCodec;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 /// A [ui.Codec] implementation for testing that pre-fetches all the image
 /// frames, and provides synchronous [getNextFrame] implementation.

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 
 import '../../gallery/demo.dart';
 
@@ -140,7 +140,7 @@ class _GridPhotoViewerState extends State<GridPhotoViewer>
             ..scale(_scale),
           child: Image.asset(
             '${widget.photo.assetName}',
-            // TODO(flutter_web): package: widget.photo.assetPackage,
+            // TODO(flutter): package: widget.photo.assetPackage,
             fit: BoxFit.cover,
           ),
         ),
@@ -191,7 +191,7 @@ class GridDemoPhotoItem extends StatelessWidget {
             tag: photo.tag,
             child: Image.asset(
               '${photo.assetName}',
-              // TODO(flutter_web): package: photo.assetPackage,
+              // TODO(flutter): package: photo.assetPackage,
               fit: BoxFit.cover,
             )));
 

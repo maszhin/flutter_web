@@ -4,8 +4,8 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter_ui/ui.dart';
 
 import 'borders.dart';
 

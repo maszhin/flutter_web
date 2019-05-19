@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart' show VoidCallback;
+import 'package:flutter_ui/ui.dart' show VoidCallback;
 
 /// Whether we've been built in release mode.
 const bool _kReleaseMode = bool.fromEnvironment('dart.vm.product');

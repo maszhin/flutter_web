@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/cupertino.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
 import '../rendering/mock_canvas.dart';
 
 void main() {
@@ -86,7 +86,7 @@ void main() {
       );
     }
 
-    // TODO(flutter_web): Enable after cupertino support is added.
+    // TODO(flutter): Enable after cupertino support is added.
 //    await tester.pumpWidget(buildFrame(TargetPlatform.iOS));
 //    expect(find.byType(CupertinoSwitch), findsOneWidget);
 //    expect(value, isFalse);

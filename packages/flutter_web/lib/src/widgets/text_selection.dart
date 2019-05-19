@@ -4,12 +4,12 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/gestures.dart'
+import 'package:flutter/gestures.dart'
     show kDoubleTapTimeout, kDoubleTapSlop;
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web/scheduler.dart';
-import 'package:flutter_web/gestures.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/gestures.dart';
 
 import 'basic.dart';
 import 'container.dart';
@@ -19,7 +19,7 @@ import 'gesture_detector.dart';
 import 'overlay.dart';
 import 'transitions.dart';
 
-export 'package:flutter_web/services.dart' show TextSelectionDelegate;
+export 'package:flutter/services.dart' show TextSelectionDelegate;
 
 /// A duration that controls how often the drag selection update callback is
 /// called.

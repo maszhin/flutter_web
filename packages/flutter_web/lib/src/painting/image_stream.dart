@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 import 'dart:async';
-import 'package:flutter_web_ui/ui.dart' as ui show Image, Codec, FrameInfo;
-import 'package:flutter_web_ui/ui.dart' show hashValues;
+import 'package:flutter_ui/ui.dart' as ui show Image, Codec, FrameInfo;
+import 'package:flutter_ui/ui.dart' show hashValues;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/scheduler.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/scheduler.dart';
 
 /// A [dart:ui.Image] object with its corresponding scale.
 ///

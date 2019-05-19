@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 import 'dart:math' as math;
-import 'package:flutter_web_ui/ui.dart' as ui show TextBox, lerpDouble;
+import 'package:flutter_ui/ui.dart' as ui show TextBox, lerpDouble;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/semantics.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/semantics.dart';
+import 'package:flutter/services.dart';
 
 import 'box.dart';
 import 'object.dart';
@@ -832,7 +832,7 @@ class RenderEditable extends RenderBox {
           ? obscuringCharacter * text.toPlainText().length
           : text.toPlainText()
       ..isObscured = obscureText
-      // TODO(flutter_web): upstream.
+      // TODO(flutter): upstream.
       ..isMultiline = _isMultiline
       ..textDirection = textDirection
       ..isFocused = hasFocus

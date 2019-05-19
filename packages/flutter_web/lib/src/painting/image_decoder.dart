@@ -4,7 +4,7 @@
 
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui show Image, decodeImageFromList;
+import 'package:flutter_ui/ui.dart' as ui show Image, decodeImageFromList;
 
 /// Creates an image from a list of bytes.
 ///

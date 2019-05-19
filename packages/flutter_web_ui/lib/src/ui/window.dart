@@ -583,7 +583,7 @@ class Window {
   int _lastKnownWindowInnerHeight = -1;
 
   /// Overrides the value of [physicalSize] in tests.
-  // TODO(flutter_web): Move this into a Web-specific implementation of Window.
+  // TODO(flutter): Move this into a Web-specific implementation of Window.
   Size webOnlyDebugPhysicalSizeOverride;
 
   /// The number of physical pixels on each side of the display rectangle into
@@ -732,7 +732,7 @@ class Window {
   ///  * [WidgetsBindingObserver], for a mechanism at the widgets layer to
   ///    observe when this value changes.
   List<Locale> get locales => _locales;
-  // TODO(flutter_web): Get the real locale from the browser.
+  // TODO(flutter): Get the real locale from the browser.
   List<Locale> _locales = const [_enUS];
 
   /// A callback that is invoked whenever [locale] changes value.
@@ -1002,7 +1002,7 @@ class Window {
         break;
     }
 
-    // TODO(flutter_web): Some Flutter widgets send platform messages that we
+    // TODO(flutter): Some Flutter widgets send platform messages that we
     // don't handle on web. So for now, let's just ignore them. In the future,
     // we should consider uncommenting the following "callback(null)" line.
 

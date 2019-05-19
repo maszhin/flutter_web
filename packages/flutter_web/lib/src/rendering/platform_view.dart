@@ -18,4 +18,4 @@ enum PlatformViewHitTestBehavior {
   transparent,
 }
 
-// TODO(flutter_web): implement RenderWebPlatformView.
+// TODO(flutter): implement RenderWebPlatformView.

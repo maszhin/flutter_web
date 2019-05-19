@@ -56,7 +56,7 @@ class Scene {
     if (width <= 0 || height <= 0)
       throw new Exception('Invalid image dimensions.');
     throw UnsupportedError('toImage is not supported on the Web');
-    // TODO(flutter_web): Implement [_toImage].
+    // TODO(flutter): Implement [_toImage].
     // return futurize(
     //     (Callback<Image> callback) => _toImage(width, height, callback));
   }
@@ -1948,7 +1948,7 @@ class PersistedHoudiniPicture extends PersistedPicture {
       paintWorklet,
       'addModule',
       [
-        '/packages/flutter_web/assets/houdini_painter.js',
+        '/packages/flutter/assets/houdini_painter.js',
       ],
     );
   }

@@ -795,7 +795,7 @@ class BitmapCanvas extends EngineCanvas with SaveStackTracking {
       ..whiteSpace = 'pre-wrap'
       ..width = '${paragraph.width}px';
 
-    // TODO(flutter_web): Implement the ellipsis overflow for multi-line text
+    // TODO(flutter): Implement the ellipsis overflow for multi-line text
     //  too. As a pre-requisite, we need to be able to programmatically find
     //  line breaks.
     if (style.ellipsis != null &&
@@ -917,7 +917,7 @@ String _stringForBlendMode(ui.BlendMode blendMode) {
       return 'xor';
     case ui.BlendMode.multiply:
     // Falling back to multiply, ignoring alpha channel.
-    // TODO(flutter_web): only used for debug, find better fallback for web.
+    // TODO(flutter): only used for debug, find better fallback for web.
     case ui.BlendMode.modulate:
       return 'multiply';
     case ui.BlendMode.screen:
@@ -1043,7 +1043,7 @@ List<html.Element> _clipContent(List<_SaveClipEntry> clipStack,
     }
     // Reverse the transform of the clipping element so children can use
     // effective transform to render.
-    // TODO(flutter_web): When we have more than a single clip element,
+    // TODO(flutter): When we have more than a single clip element,
     // reduce number of div nodes by merging (multiplying transforms).
     var reverseTransformDiv = new html.DivElement();
     reverseTransformDiv.style
@@ -1074,7 +1074,7 @@ class _NullTreeSanitizer implements html.NodeTreeSanitizer {
 int _clipTextCounter = 0;
 
 /// Converts Path to svg element that contains a clip-path definition.
-/// TODO(flutter_web): unify with version used in compositing.dart.
+/// TODO(flutter): unify with version used in compositing.dart.
 String _pathToSvgClipPath(ui.Path path,
     {double offsetX = 0, double offsetY = 0}) {
   ui.Rect bounds = path.getBounds();

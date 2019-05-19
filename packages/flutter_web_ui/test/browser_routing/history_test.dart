@@ -4,12 +4,12 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/src/widgets/web_navigator.dart';
-import 'package:flutter_web_ui/src/engine.dart' hide MethodCall;
-import 'package:flutter_web_ui/ui.dart' as ui;
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web_test/browser.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/src/widgets/web_navigator.dart';
+import 'package:flutter_ui/src/engine.dart' hide MethodCall;
+import 'package:flutter_ui/ui.dart' as ui;
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_test/browser.dart';
 
 const Key tap1 = Key('tap1');
 const Key tap2 = Key('tap2');

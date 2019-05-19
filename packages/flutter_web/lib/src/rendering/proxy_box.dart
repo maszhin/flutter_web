@@ -4,15 +4,15 @@
 
 import 'dart:async';
 
-import 'package:flutter_web_ui/ui.dart' as ui show ImageFilter, Gradient, Image;
+import 'package:flutter_ui/ui.dart' as ui show ImageFilter, Gradient, Image;
 
-import 'package:flutter_web/animation.dart';
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web/semantics.dart';
+import 'package:flutter/animation.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/semantics.dart';
 
-import 'package:flutter_web/src/util.dart';
+import 'package:flutter/src/util.dart';
 
 import 'package:vector_math/vector_math_64.dart';
 
@@ -21,7 +21,7 @@ import 'box.dart';
 import 'layer.dart';
 import 'object.dart';
 
-export 'package:flutter_web/gestures.dart'
+export 'package:flutter/gestures.dart'
     show
         PointerEvent,
         PointerDownEvent,
@@ -1569,7 +1569,7 @@ abstract class _RenderPhysicalModelBase<T> extends _RenderCustomClip<T> {
 
   // TODO(het): We are re-enabling this optimization for the web to work around issues
   // with the physical shape clipping anti-aliased arc paths.
-  // TODO(flutter_web): Upstream this.
+  // TODO(flutter): Upstream this.
   @override
   bool get alwaysNeedsCompositing =>
       _elevation != 0.0 && defaultTargetPlatform == TargetPlatform.fuchsia;
@@ -2168,7 +2168,7 @@ class RenderTransform extends RenderProxyBox {
     return super.hitTestChildren(result, position: position);
   }
 
-  // TODO(flutter_web): Canvas.pushTransform doesn't correctly handle save/restore
+  // TODO(flutter): Canvas.pushTransform doesn't correctly handle save/restore
   // for transform yet, so we force a composited layer to get fidelity. Once
   // supported switch to the default alwaysNeedsCompositing to prevent extra
   // layer. For tests to stay in sync, use non-layer code path.
@@ -3400,7 +3400,7 @@ class RenderSemanticsAnnotations extends RenderProxyBox {
     bool focused,
     bool inMutuallyExclusiveGroup,
     bool obscured,
-    // TODO(flutter_web): upstream.
+    // TODO(flutter): upstream.
     bool multiline,
     bool scopesRoute,
     bool namesRoute,
@@ -3449,7 +3449,7 @@ class RenderSemanticsAnnotations extends RenderProxyBox {
         _focused = focused,
         _inMutuallyExclusiveGroup = inMutuallyExclusiveGroup,
         _obscured = obscured,
-        // TODO(flutter_web): upstream.
+        // TODO(flutter): upstream.
         _multiline = multiline,
         _scopesRoute = scopesRoute,
         _namesRoute = namesRoute,
@@ -3624,7 +3624,7 @@ class RenderSemanticsAnnotations extends RenderProxyBox {
     markNeedsSemanticsUpdate();
   }
 
-  // TODO(flutter_web): upstream.
+  // TODO(flutter): upstream.
   /// If non-null, sets the [SemanticsNode.isMultiline] semantic to the given
   /// value.
   bool get multiline => _multiline;
@@ -4175,7 +4175,7 @@ class RenderSemanticsAnnotations extends RenderProxyBox {
     if (inMutuallyExclusiveGroup != null)
       config.isInMutuallyExclusiveGroup = inMutuallyExclusiveGroup;
     if (obscured != null) config.isObscured = obscured;
-    // TODO(flutter_web): upstream.
+    // TODO(flutter): upstream.
     if (multiline != null) config.isMultiline = multiline;
     if (hidden != null) config.isHidden = hidden;
     if (image != null) config.isImage = image;

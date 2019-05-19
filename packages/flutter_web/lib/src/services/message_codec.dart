@@ -4,7 +4,7 @@
 
 import 'dart:typed_data';
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 import 'platform_channel.dart';
 

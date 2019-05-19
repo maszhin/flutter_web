@@ -168,7 +168,7 @@ class PointerAdapter extends BaseAdapter {
     _addEventListener('pointerdown', (html.Event event) {
       int pointerButton = _pointerButtonFromHtmlEvent(event);
       if (_isButtonDown(pointerButton)) {
-        // TODO(flutter_web): Remove this temporary fix for right click
+        // TODO(flutter): Remove this temporary fix for right click
         // on web platform once context guesture is implemented.
         _callback(_convertEventToPointerData(ui.PointerChange.up, event));
       }
@@ -177,7 +177,7 @@ class PointerAdapter extends BaseAdapter {
     });
 
     _addEventListener('pointermove', (html.Event event) {
-      // TODO(flutter_web): During a drag operation pointermove will set
+      // TODO(flutter): During a drag operation pointermove will set
       // button to -1 as opposed to mouse move which sets it to 2.
       // This check is currently defaulting to primary button for now.
       // Change this when context gesture is implemented in flutter framework.
@@ -333,7 +333,7 @@ class MouseAdapter extends BaseAdapter {
     _addEventListener('mousedown', (html.Event event) {
       int pointerButton = _pointerButtonFromHtmlEvent(event);
       if (_isButtonDown(pointerButton)) {
-        // TODO(flutter_web): Remove this temporary fix for right click
+        // TODO(flutter): Remove this temporary fix for right click
         // on web platform once context guesture is implemented.
         _callback(_convertEventToPointerData(ui.PointerChange.up, event));
       }

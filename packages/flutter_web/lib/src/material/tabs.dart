@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 import 'dart:async';
-import 'package:flutter_web_ui/ui.dart' show lerpDouble;
+import 'package:flutter_ui/ui.dart' show lerpDouble;
 
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web/gestures.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter/gestures.dart';
 
 import 'app_bar.dart';
 import 'colors.dart';

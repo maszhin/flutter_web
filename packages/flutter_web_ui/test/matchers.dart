@@ -14,8 +14,8 @@ import 'dart:math' as math;
 import 'package:meta/meta.dart';
 import 'package:test/test.dart';
 
-import 'package:flutter_web_ui/ui.dart';
-import 'package:flutter_web_ui/src/engine.dart';
+import 'package:flutter_ui/ui.dart';
+import 'package:flutter_ui/src/engine.dart';
 
 /// Enumerates all persisted surfaces in the tree rooted at [root].
 ///

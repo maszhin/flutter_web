@@ -4,10 +4,10 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web_ui/ui.dart' show Clip;
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_ui/ui.dart' show Clip;
+import 'package:flutter/widgets.dart';
 
 import 'button.dart';
 import 'scaffold.dart';
@@ -85,7 +85,7 @@ class FloatingActionButton extends StatelessWidget {
     this.isExtended = false,
   })  : assert(elevation != null && elevation >= 0.0),
         assert(highlightElevation != null && highlightElevation >= 0.0),
-        // TODO(flutter_web): const asserts are broken in dart2js.
+        // TODO(flutter): const asserts are broken in dart2js.
         // assert(disabledElevation == null || disabledElevation >= 0.0),
         assert(mini != null),
         assert(shape != null),

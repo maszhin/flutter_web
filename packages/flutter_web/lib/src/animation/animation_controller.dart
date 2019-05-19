@@ -6,19 +6,19 @@ import 'dart:async' show Future;
 
 import 'package:meta/meta.dart';
 
-import 'package:flutter_web/scheduler.dart'
+import 'package:flutter/scheduler.dart'
     show TickerProvider, Ticker, TickerFuture;
-import 'package:flutter_web/foundation.dart' show FlutterError;
-import 'package:flutter_web/physics.dart'
+import 'package:flutter/foundation.dart' show FlutterError;
+import 'package:flutter/physics.dart'
     show SpringDescription, SpringSimulation, Tolerance, Simulation;
-import 'package:flutter_web/semantics.dart';
-import 'package:flutter_web_ui/ui.dart' as ui show lerpDouble;
+import 'package:flutter/semantics.dart';
+import 'package:flutter_ui/ui.dart' as ui show lerpDouble;
 
 import 'animation.dart';
 import 'curves.dart';
 import 'listener_helpers.dart';
 
-export 'package:flutter_web/scheduler.dart' show TickerFuture, TickerCanceled;
+export 'package:flutter/scheduler.dart' show TickerFuture, TickerCanceled;
 
 // Examples can assume:
 // AnimationController _controller, fadeAnimationController, sizeAnimationController;

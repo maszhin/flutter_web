@@ -4,11 +4,11 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/widgets.dart';
 
 import 'theme.dart';
 
-// TODO(flutter_web): Handle Cupertino in upstream. Either import and tree-shake
+// TODO(flutter): Handle Cupertino in upstream. Either import and tree-shake
 // Cupertino, or have the sync script handle it automatically.
 
 const double _kScrollbarThickness = 6.0;

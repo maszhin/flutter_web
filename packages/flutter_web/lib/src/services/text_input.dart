@@ -3,17 +3,17 @@
 // found in the LICENSE file.
 
 import 'dart:async';
-import 'package:flutter_web/io.dart' show Platform;
-import 'package:flutter_web_ui/ui.dart' show TextAffinity, hashValues, Offset;
+import 'package:flutter/io.dart' show Platform;
+import 'package:flutter_ui/ui.dart' show TextAffinity, hashValues, Offset;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 import 'message_codec.dart';
 import 'system_channels.dart';
 import 'system_chrome.dart';
 import 'text_editing.dart';
 
-export 'package:flutter_web_ui/ui.dart' show TextAffinity;
+export 'package:flutter_ui/ui.dart' show TextAffinity;
 
 /// The type of information for which to optimize the text input control.
 ///

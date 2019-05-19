@@ -4,8 +4,8 @@
 
 import 'dart:math';
 
-import 'package:flutter_web/widgets.dart';
-import 'package:flutter_web/rendering.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter/rendering.dart';
 
 import 'debug.dart';
 import 'material.dart';

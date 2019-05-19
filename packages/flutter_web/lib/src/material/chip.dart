@@ -4,11 +4,11 @@
 
 import 'dart:math' as math;
 
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web_ui/ui.dart' show Clip;
-import 'package:flutter_web/widgets.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_ui/ui.dart' show Clip;
+import 'package:flutter/widgets.dart';
 
 import 'chip_theme.dart';
 import 'colors.dart';

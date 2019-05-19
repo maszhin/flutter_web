@@ -2,12 +2,12 @@ import 'dart:async';
 import 'dart:math' as math;
 import 'dart:typed_data';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/rendering.dart';
-import 'package:flutter_web_ui/ui.dart';
-import 'package:flutter_web/services.dart';
-import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter_ui/ui.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_ui/ui.dart' as ui;
 import 'package:meta/meta.dart';
 import 'package:test_api/test_api.dart' hide TypeMatcher, isInstanceOf;
 import 'package:test_api/src/frontend/async_matcher.dart'; // ignore: implementation_imports
@@ -745,7 +745,7 @@ class _EqualsIgnoringHashCodes extends Matcher {
       // description returned by addDescriptionOf are all indented equally
       // which makes the output easier to read for this case.
 
-      // TODO(flutter_web): upstream Mismatch snippet to flutter.
+      // TODO(flutter): upstream Mismatch snippet to flutter.
       int valueLength = _value.length;
       int actualLength = actualValue.length;
       int i = 0;

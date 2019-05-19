@@ -4,13 +4,13 @@
 
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:flutter_web_ui/ui.dart' as ui
+import 'package:flutter_ui/ui.dart' as ui
     show instantiateImageCodec, webOnlyInstantiateImageCodecFromUrl, Codec;
-import 'package:flutter_web_ui/ui.dart'
+import 'package:flutter_ui/ui.dart'
     show Size, Locale, TextDirection, hashValues;
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
 
 import 'binding.dart';
 import 'image_cache.dart';

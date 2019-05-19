@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_test/flutter_web_test.dart';
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_ui/ui.dart';
 import 'package:matcher/matcher.dart';
 
-// TODO(flutter_web): Add Semantics tests.
+// TODO(flutter): Add Semantics tests.
 //import '../widgets/semantics_tester.dart';
 
 void main() {

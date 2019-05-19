@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_ui/ui.dart';
 
-import 'package:flutter_web/foundation.dart' show visibleForTesting;
-import 'package:flutter_web/scheduler.dart';
+import 'package:flutter/foundation.dart' show visibleForTesting;
+import 'package:flutter/scheduler.dart';
 
 import 'events.dart';
 import 'pointer_router.dart';
@@ -71,7 +71,7 @@ class _TrackedAnnotation {
   ///
   /// This is used to detect layers that used to have the mouse pointer inside
   /// them, but now no longer do (to facilitate exit notification).
-  // TODO(flutter_web): sync. for now getting the following compile error:
+  // TODO(flutter): sync. for now getting the following compile error:
   // Set literals were not supported until version 2.2, but this code is
   // required to be able to run on earlier versions. #sdk_version_set_literal
   Set<int> activeDevices = Set<int>();

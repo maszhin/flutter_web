@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 import 'dart:math' as math;
-import 'package:flutter_web_ui/ui.dart' show lerpDouble, hashValues;
+import 'package:flutter_ui/ui.dart' show lerpDouble, hashValues;
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 
 import '../util.dart';
 import 'box.dart';

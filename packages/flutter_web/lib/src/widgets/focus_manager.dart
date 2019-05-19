@@ -4,7 +4,7 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/foundation.dart';
+import 'package:flutter/foundation.dart';
 import '../util.dart' show assertionsEnabled;
 
 /// A leaf node in the focus tree that can receive focus.

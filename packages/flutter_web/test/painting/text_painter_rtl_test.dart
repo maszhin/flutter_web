@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 const bool skipTestsWithKnownBugs = true;
 const bool skipExpectsWithKnownBugs = false;
@@ -458,7 +458,7 @@ void main() {
         TextBox.fromLTRBD(0.0, 10.0, 10.0, 20.0, TextDirection.rtl), // Alef
       ],
     );
-  }, skip: true); // TODO(flutter_web): b://122894057
+  }, skip: true); // TODO(flutter): b://122894057
 
   test('TextPainter - line wrap mid-word', () {
     final TextPainter painter = TextPainter()

@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter_web_test/flutter_web_test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/material.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 
 // A simple "flat" InheritedModel: the data model is just 3 integer
 // valued fields: a, b, c.

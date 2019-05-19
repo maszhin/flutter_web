@@ -4,10 +4,10 @@
 
 import 'dart:async';
 
-import 'package:flutter_web/animation.dart';
-import 'package:flutter_web/gestures.dart';
-import 'package:flutter_web/physics.dart';
-import 'package:flutter_web/rendering.dart';
+import 'package:flutter/animation.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/physics.dart';
+import 'package:flutter/rendering.dart';
 
 import 'framework.dart';
 import 'scroll_activity.dart';

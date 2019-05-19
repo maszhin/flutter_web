@@ -4,8 +4,8 @@
 
 import 'dart:typed_data';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter_ui/ui.dart';
 import '../flutter_test_alternative.dart';
 
 void main() {

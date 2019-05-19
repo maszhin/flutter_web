@@ -5,11 +5,11 @@
 import 'dart:async';
 import 'dart:collection';
 
-import 'package:flutter_web/foundation.dart';
-import 'package:flutter_web/painting.dart';
-import 'package:flutter_web_ui/ui.dart' as ui
+import 'package:flutter/foundation.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter_ui/ui.dart' as ui
     show EngineLayer, Image, ImageFilter, Picture, Scene, SceneBuilder;
-import 'package:flutter_web/src/util.dart';
+import 'package:flutter/src/util.dart';
 import 'package:vector_math/vector_math_64.dart';
 
 import 'debug.dart';
@@ -1411,7 +1411,7 @@ class PhysicalModelLayer extends ContainerLayer {
     }());
     if (enabled) {
       engineLayer = builder.pushPhysicalShape(
-        // TODO(flutter_web): upstream Offset.zero optimization since most
+        // TODO(flutter): upstream Offset.zero optimization since most
         path: (layerOffset == Offset.zero)
             ? clipPath
             : clipPath.shift(layerOffset),
