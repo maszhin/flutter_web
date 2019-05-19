@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import 'dart:typed_data' show ByteData;
-import 'package:flutter_ui/ui.dart' hide window;
+import 'package:flutter_web_ui/ui.dart' hide window;
 
 import 'package:meta/meta.dart';
 

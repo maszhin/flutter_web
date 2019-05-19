@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:math' as math;
 import 'dart:typed_data';
-import 'package:flutter_ui/ui.dart' as ui;
+import 'package:flutter_web_ui/ui.dart' as ui;
 
 import 'package:flutter/rendering.dart';
 import 'package:flutter/semantics.dart';

@@ -134,7 +134,7 @@ and then you may use the `webdev` command directly from your terminal.
     ```console
     $ flutter packages upgrade
     ! flutter 0.0.0 from path ../../flutter
-    ! flutter_ui 0.0.0 from path ../../flutter_ui
+    ! flutter_web_ui 0.0.0 from path ../../flutter_web_ui
     Running "flutter packages upgrade" in hello_world...                5.0s
     ```
 
@@ -203,7 +203,7 @@ environment:
 
 dependencies:
   flutter: any
-  flutter_ui: any
+  flutter_web_ui: any
 
 dev_dependencies:
   # Enables the `pub run build_runner` command
@@ -218,10 +218,10 @@ dependency_overrides:
     git:
       url: https://github.com/flutter/flutter
       path: packages/flutter
-  flutter_ui:
+  flutter_web_ui:
     git:
       url: https://github.com/flutter/flutter
-      path: packages/flutter_ui
+      path: packages/flutter_web_ui
 ```
 
 ### Getting (stateless) hot-reload with `webdev`

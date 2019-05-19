@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_ui/ui.dart';
+import 'package:flutter_web_ui/ui.dart';
 
 void main() {
   test('Should have no subpaths when created', () {

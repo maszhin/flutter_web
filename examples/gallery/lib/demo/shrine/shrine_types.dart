@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter_ui/ui.dart' show hashValues;
+import 'package:flutter_web_ui/ui.dart' show hashValues;
 
 class Vendor {
   const Vendor({

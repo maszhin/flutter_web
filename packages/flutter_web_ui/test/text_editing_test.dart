@@ -5,8 +5,8 @@
 import 'dart:html';
 import 'dart:typed_data';
 
-import 'package:flutter_ui/ui.dart' as ui;
-import 'package:flutter_ui/src/engine.dart';
+import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter_web_ui/src/engine.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 final MethodCodec codec = JSONMethodCodec();

@@ -2,7 +2,7 @@ part of engine;
 
 const _testFontFamily = 'Ahem';
 const _testFontUrl = 'packages/flutter/assets/Ahem.ttf';
-const _robotoFontUrl = 'packages/flutter_ui/assets/Roboto-Regular.ttf';
+const _robotoFontUrl = 'packages/flutter_web_ui/assets/Roboto-Regular.ttf';
 
 /// This class is responsible for registering and loading fonts.
 ///

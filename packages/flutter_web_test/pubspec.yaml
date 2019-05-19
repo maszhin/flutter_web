@@ -17,5 +17,5 @@ dependencies:
 dependency_overrides:
   flutter:
     path: ../flutter
-  flutter_ui:
-    path: ../flutter_ui
+  flutter_web_ui:
+    path: ../flutter_web_ui

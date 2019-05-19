@@ -4,7 +4,7 @@
 
 import 'package:test/test.dart';
 
-import 'package:flutter_ui/src/engine.dart';
+import 'package:flutter_web_ui/src/engine.dart';
 
 void main() {
   group('$WordBreaker', () {

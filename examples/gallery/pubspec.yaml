@@ -6,7 +6,7 @@ environment:
 
 dependencies:
   flutter: any
-  flutter_ui: any
+  flutter_web_ui: any
   intl: ^0.15.7
 
 dev_dependencies:
@@ -20,5 +20,5 @@ dependency_overrides:
     path: ../../packages/flutter
   flutter_test:
     path: ../../packages/flutter_test
-  flutter_ui:
-    path: ../../packages/flutter_ui
+  flutter_web_ui:
+    path: ../../packages/flutter_web_ui

@@ -4,8 +4,8 @@
 
 import 'dart:html' as html;
 
-import 'package:flutter_ui/src/engine.dart';
-import 'package:flutter_ui/ui.dart';
+import 'package:flutter_web_ui/src/engine.dart';
+import 'package:flutter_web_ui/ui.dart';
 
 import 'package:test/test.dart';
 

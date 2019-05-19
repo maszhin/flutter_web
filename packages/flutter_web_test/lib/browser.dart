@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:html' as html;
 
-import 'package:flutter_ui/ui.dart' as ui;
+import 'package:flutter_web_ui/ui.dart' as ui;
 
 const _debugLogHistoryActions = false;
 

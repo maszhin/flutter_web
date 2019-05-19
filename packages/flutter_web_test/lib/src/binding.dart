@@ -5,8 +5,8 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/io.dart';
-import 'package:flutter_ui/ui.dart' as ui;
-import 'package:flutter_ui/src/engine.dart' as ui;
+import 'package:flutter_web_ui/ui.dart' as ui;
+import 'package:flutter_web_ui/src/engine.dart' as ui;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';

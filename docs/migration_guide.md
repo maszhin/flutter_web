@@ -62,10 +62,10 @@ dependency_overrides:
     git:
       url: https://github.com/flutter/flutter
       path: packages/flutter
-  flutter_ui:
+  flutter_web_ui:
     git:
       url: https://github.com/flutter/flutter
-      path: packages/flutter_ui
+      path: packages/flutter_web_ui
   flutter_test:
     git:
       url: https://github.com/flutter/flutter
@@ -77,7 +77,7 @@ dependency_overrides:
 Change imports of `package:flutter` to `package:flutter` throughout
 your application code.
 
-Change imports of `dart:ui` to `package:flutter_ui/ui.dart`.
+Change imports of `dart:ui` to `package:flutter_web_ui/ui.dart`.
 
 <!-- TODO: asset references -->
 <!-- TODO: flutter plugin imports -->
@@ -107,7 +107,7 @@ changing the `package:` import to match your application.
 ```
 
 ```dart
-import 'package:flutter_ui/ui.dart' as ui;
+import 'package:flutter_web_ui/ui.dart' as ui;
 
 // TODO: change `my_app` to refer to your app package name.
 import 'package:my_app/main.dart' as app;

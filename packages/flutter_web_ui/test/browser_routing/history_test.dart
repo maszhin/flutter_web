@@ -6,8 +6,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/web_navigator.dart';
-import 'package:flutter_ui/src/engine.dart' hide MethodCall;
-import 'package:flutter_ui/ui.dart' as ui;
+import 'package:flutter_web_ui/src/engine.dart' hide MethodCall;
+import 'package:flutter_web_ui/ui.dart' as ui;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_test/browser.dart';
 

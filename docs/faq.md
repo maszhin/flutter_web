@@ -6,7 +6,7 @@ Our goal is to enable building applications for mobile and web simultaneously
 from a single codebase. However, to facilitate fast experimentation, temporarily
 Flutter for web is developed in a separate namespace. So, as of today, in order
 to use Flutter for web you need to import `package:flutter` instead of
-`package:flutter`, and `package:flutter_ui` instead of `dart:ui`.
+`package:flutter`, and `package:flutter_web_ui` instead of `dart:ui`.
 
 ## Why can't I use existing Flutter pub packages?
 

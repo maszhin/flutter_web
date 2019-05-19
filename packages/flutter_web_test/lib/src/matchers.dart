@@ -5,9 +5,9 @@ import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_ui/ui.dart';
+import 'package:flutter_web_ui/ui.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_ui/ui.dart' as ui;
+import 'package:flutter_web_ui/ui.dart' as ui;
 import 'package:meta/meta.dart';
 import 'package:test_api/test_api.dart' hide TypeMatcher, isInstanceOf;
 import 'package:test_api/src/frontend/async_matcher.dart'; // ignore: implementation_imports
